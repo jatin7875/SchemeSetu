@@ -1,0 +1,11 @@
+node_modules/
+client/node_modules/
+server/node_modules/
+client/dist/
+*.log
+.env
+__pycache__/
+*.pyc
+.venv/
+server/uploads/*
+!server/uploads/.gitkeep

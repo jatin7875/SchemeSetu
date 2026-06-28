@@ -1,0 +1,121 @@
+age,gender,state,district,caste,annual_income,occupation,disability_status,farmer_status,bpl_status,ration_card_type,education_level
+8,male,Maharashtra,Nagpur,General,50000,student,yes,no,yes,none,school
+15,female,Karnataka,Pune,OBC,67000,farmer,no,yes,yes,yellow,post-matric
+22,other,Uttar Pradesh,Bengaluru,SC,84000,self_employed,no,no,no,BPL,undergraduate
+29,male,Tamil Nadu,Lucknow,ST,101000,artisan,no,no,no,AAY,graduate
+36,female,Rajasthan,Chennai,EWS,118000,unorganised_sector,no,no,yes,PHH,postgraduate
+43,other,Maharashtra,Jaipur,General,135000,salaried,no,no,yes,APL,none
+50,male,Karnataka,Nagpur,OBC,152000,unemployed,no,no,no,none,school
+57,female,Uttar Pradesh,Pune,SC,169000,student,no,no,no,yellow,post-matric
+64,other,Tamil Nadu,Bengaluru,ST,186000,farmer,no,yes,yes,BPL,undergraduate
+71,male,Rajasthan,Lucknow,EWS,203000,self_employed,no,no,yes,AAY,graduate
+10,female,Maharashtra,Chennai,General,220000,artisan,no,no,no,PHH,postgraduate
+17,other,Karnataka,Jaipur,OBC,237000,unorganised_sector,yes,no,no,APL,none
+24,male,Uttar Pradesh,Nagpur,SC,254000,salaried,no,no,yes,none,school
+31,female,Tamil Nadu,Pune,ST,271000,unemployed,no,no,yes,yellow,post-matric
+38,other,Rajasthan,Bengaluru,EWS,288000,student,no,no,no,BPL,undergraduate
+45,male,Maharashtra,Lucknow,General,305000,farmer,no,yes,no,AAY,graduate
+52,female,Karnataka,Chennai,OBC,322000,self_employed,no,no,yes,PHH,postgraduate
+59,other,Uttar Pradesh,Jaipur,SC,339000,artisan,no,no,yes,APL,none
+66,male,Tamil Nadu,Nagpur,ST,356000,unorganised_sector,no,no,no,none,school
+73,female,Rajasthan,Pune,EWS,373000,salaried,no,no,no,yellow,post-matric
+12,other,Maharashtra,Bengaluru,General,390000,unemployed,no,no,yes,BPL,undergraduate
+19,male,Karnataka,Lucknow,OBC,407000,student,no,no,yes,AAY,graduate
+26,female,Uttar Pradesh,Chennai,SC,424000,farmer,yes,yes,no,PHH,postgraduate
+33,other,Tamil Nadu,Jaipur,ST,441000,self_employed,no,no,no,APL,none
+40,male,Rajasthan,Nagpur,EWS,458000,artisan,no,no,yes,none,school
+47,female,Maharashtra,Pune,General,475000,unorganised_sector,no,no,yes,yellow,post-matric
+54,other,Karnataka,Bengaluru,OBC,492000,salaried,no,no,no,BPL,undergraduate
+61,male,Uttar Pradesh,Lucknow,SC,509000,unemployed,no,no,no,AAY,graduate
+68,female,Tamil Nadu,Chennai,ST,526000,student,no,no,yes,PHH,postgraduate
+75,other,Rajasthan,Jaipur,EWS,543000,farmer,no,yes,yes,APL,none
+14,male,Maharashtra,Nagpur,General,560000,self_employed,no,no,no,none,school
+21,female,Karnataka,Pune,OBC,577000,artisan,no,no,no,yellow,post-matric
+28,other,Uttar Pradesh,Bengaluru,SC,594000,unorganised_sector,no,no,yes,BPL,undergraduate
+35,male,Tamil Nadu,Lucknow,ST,611000,salaried,yes,no,yes,AAY,graduate
+42,female,Rajasthan,Chennai,EWS,628000,unemployed,no,no,no,PHH,postgraduate
+49,other,Maharashtra,Jaipur,General,645000,student,no,no,no,APL,none
+56,male,Karnataka,Nagpur,OBC,662000,farmer,no,yes,yes,none,school
+63,female,Uttar Pradesh,Pune,SC,679000,self_employed,no,no,yes,yellow,post-matric
+70,other,Tamil Nadu,Bengaluru,ST,696000,artisan,no,no,no,BPL,undergraduate
+9,male,Rajasthan,Lucknow,EWS,63000,unorganised_sector,no,no,no,AAY,graduate
+16,female,Maharashtra,Chennai,General,80000,salaried,no,no,yes,PHH,postgraduate
+23,other,Karnataka,Jaipur,OBC,97000,unemployed,no,no,yes,APL,none
+30,male,Uttar Pradesh,Nagpur,SC,114000,student,no,no,no,none,school
+37,female,Tamil Nadu,Pune,ST,131000,farmer,no,yes,no,yellow,post-matric
+44,other,Rajasthan,Bengaluru,EWS,148000,self_employed,yes,no,yes,BPL,undergraduate
+51,male,Maharashtra,Lucknow,General,165000,artisan,no,no,yes,AAY,graduate
+58,female,Karnataka,Chennai,OBC,182000,unorganised_sector,no,no,no,PHH,postgraduate
+65,other,Uttar Pradesh,Jaipur,SC,199000,salaried,no,no,no,APL,none
+72,male,Tamil Nadu,Nagpur,ST,216000,unemployed,no,no,yes,none,school
+11,female,Rajasthan,Pune,EWS,233000,student,no,no,yes,yellow,post-matric
+18,other,Maharashtra,Bengaluru,General,250000,farmer,no,yes,no,BPL,undergraduate
+25,male,Karnataka,Lucknow,OBC,267000,self_employed,no,no,no,AAY,graduate
+32,female,Uttar Pradesh,Chennai,SC,284000,artisan,no,no,yes,PHH,postgraduate
+39,other,Tamil Nadu,Jaipur,ST,301000,unorganised_sector,no,no,yes,APL,none
+46,male,Rajasthan,Nagpur,EWS,318000,salaried,no,no,no,none,school
+53,female,Maharashtra,Pune,General,335000,unemployed,yes,no,no,yellow,post-matric
+60,other,Karnataka,Bengaluru,OBC,352000,student,no,no,yes,BPL,undergraduate
+67,male,Uttar Pradesh,Lucknow,SC,369000,farmer,no,yes,yes,AAY,graduate
+74,female,Tamil Nadu,Chennai,ST,386000,self_employed,no,no,no,PHH,postgraduate
+13,other,Rajasthan,Jaipur,EWS,403000,artisan,no,no,no,APL,none
+20,male,Maharashtra,Nagpur,General,420000,unorganised_sector,no,no,yes,none,school
+27,female,Karnataka,Pune,OBC,437000,salaried,no,no,yes,yellow,post-matric
+34,other,Uttar Pradesh,Bengaluru,SC,454000,unemployed,no,no,no,BPL,undergraduate
+41,male,Tamil Nadu,Lucknow,ST,471000,student,no,no,no,AAY,graduate
+48,female,Rajasthan,Chennai,EWS,488000,farmer,no,yes,yes,PHH,postgraduate
+55,other,Maharashtra,Jaipur,General,505000,self_employed,no,no,yes,APL,none
+62,male,Karnataka,Nagpur,OBC,522000,artisan,yes,no,no,none,school
+69,female,Uttar Pradesh,Pune,SC,539000,unorganised_sector,no,no,no,yellow,post-matric
+8,other,Tamil Nadu,Bengaluru,ST,556000,salaried,no,no,yes,BPL,undergraduate
+15,male,Rajasthan,Lucknow,EWS,573000,unemployed,no,no,yes,AAY,graduate
+22,female,Maharashtra,Chennai,General,590000,student,no,no,no,PHH,postgraduate
+29,other,Karnataka,Jaipur,OBC,607000,farmer,no,yes,no,APL,none
+36,male,Uttar Pradesh,Nagpur,SC,624000,self_employed,no,no,yes,none,school
+43,female,Tamil Nadu,Pune,ST,641000,artisan,no,no,yes,yellow,post-matric
+50,other,Rajasthan,Bengaluru,EWS,658000,unorganised_sector,no,no,no,BPL,undergraduate
+57,male,Maharashtra,Lucknow,General,675000,salaried,no,no,no,AAY,graduate
+64,female,Karnataka,Chennai,OBC,692000,unemployed,no,no,yes,PHH,postgraduate
+71,other,Uttar Pradesh,Jaipur,SC,59000,student,yes,no,yes,APL,none
+10,male,Tamil Nadu,Nagpur,ST,76000,farmer,no,yes,no,none,school
+17,female,Rajasthan,Pune,EWS,93000,self_employed,no,no,no,yellow,post-matric
+24,other,Maharashtra,Bengaluru,General,110000,artisan,no,no,yes,BPL,undergraduate
+31,male,Karnataka,Lucknow,OBC,127000,unorganised_sector,no,no,yes,AAY,graduate
+38,female,Uttar Pradesh,Chennai,SC,144000,salaried,no,no,no,PHH,postgraduate
+45,other,Tamil Nadu,Jaipur,ST,161000,unemployed,no,no,no,APL,none
+52,male,Rajasthan,Nagpur,EWS,178000,student,no,no,yes,none,school
+59,female,Maharashtra,Pune,General,195000,farmer,no,yes,yes,yellow,post-matric
+66,other,Karnataka,Bengaluru,OBC,212000,self_employed,no,no,no,BPL,undergraduate
+73,male,Uttar Pradesh,Lucknow,SC,229000,artisan,no,no,no,AAY,graduate
+12,female,Tamil Nadu,Chennai,ST,246000,unorganised_sector,yes,no,yes,PHH,postgraduate
+19,other,Rajasthan,Jaipur,EWS,263000,salaried,no,no,yes,APL,none
+26,male,Maharashtra,Nagpur,General,280000,unemployed,no,no,no,none,school
+33,female,Karnataka,Pune,OBC,297000,student,no,no,no,yellow,post-matric
+40,other,Uttar Pradesh,Bengaluru,SC,314000,farmer,no,yes,yes,BPL,undergraduate
+47,male,Tamil Nadu,Lucknow,ST,331000,self_employed,no,no,yes,AAY,graduate
+54,female,Rajasthan,Chennai,EWS,348000,artisan,no,no,no,PHH,postgraduate
+61,other,Maharashtra,Jaipur,General,365000,unorganised_sector,no,no,no,APL,none
+68,male,Karnataka,Nagpur,OBC,382000,salaried,no,no,yes,none,school
+75,female,Uttar Pradesh,Pune,SC,399000,unemployed,no,no,yes,yellow,post-matric
+14,other,Tamil Nadu,Bengaluru,ST,416000,student,no,no,no,BPL,undergraduate
+21,male,Rajasthan,Lucknow,EWS,433000,farmer,yes,yes,no,AAY,graduate
+28,female,Maharashtra,Chennai,General,450000,self_employed,no,no,yes,PHH,postgraduate
+35,other,Karnataka,Jaipur,OBC,467000,artisan,no,no,yes,APL,none
+42,male,Uttar Pradesh,Nagpur,SC,484000,unorganised_sector,no,no,no,none,school
+49,female,Tamil Nadu,Pune,ST,501000,salaried,no,no,no,yellow,post-matric
+56,other,Rajasthan,Bengaluru,EWS,518000,unemployed,no,no,yes,BPL,undergraduate
+63,male,Maharashtra,Lucknow,General,535000,student,no,no,yes,AAY,graduate
+70,female,Karnataka,Chennai,OBC,552000,farmer,no,yes,no,PHH,postgraduate
+9,other,Uttar Pradesh,Jaipur,SC,569000,self_employed,no,no,no,APL,none
+16,male,Tamil Nadu,Nagpur,ST,586000,artisan,no,no,yes,none,school
+23,female,Rajasthan,Pune,EWS,603000,unorganised_sector,no,no,yes,yellow,post-matric
+30,other,Maharashtra,Bengaluru,General,620000,salaried,yes,no,no,BPL,undergraduate
+37,male,Karnataka,Lucknow,OBC,637000,unemployed,no,no,no,AAY,graduate
+44,female,Uttar Pradesh,Chennai,SC,654000,student,no,no,yes,PHH,postgraduate
+51,other,Tamil Nadu,Jaipur,ST,671000,farmer,no,yes,yes,APL,none
+58,male,Rajasthan,Nagpur,EWS,688000,self_employed,no,no,no,none,school
+65,female,Maharashtra,Pune,General,55000,artisan,no,no,no,yellow,post-matric
+72,other,Karnataka,Bengaluru,OBC,72000,unorganised_sector,no,no,yes,BPL,undergraduate
+11,male,Uttar Pradesh,Lucknow,SC,89000,salaried,no,no,yes,AAY,graduate
+18,female,Tamil Nadu,Chennai,ST,106000,unemployed,no,no,no,PHH,postgraduate
+25,other,Rajasthan,Jaipur,EWS,123000,student,no,no,no,APL,none

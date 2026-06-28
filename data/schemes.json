@@ -1,0 +1,755 @@
+[
+  {
+    "scheme_id": "pm-kisan",
+    "scheme_name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+    "ministry_or_department": "Ministry of Agriculture & Farmers Welfare",
+    "scheme_level": "central",
+    "state": null,
+    "launch_date": "2018-12-01",
+    "status": "active",
+    "category": [
+      "Agriculture",
+      "Income Support",
+      "DBT"
+    ],
+    "target_beneficiaries": "Landholding farmer families",
+    "eligibility_text": "All landholding farmers' families, which have cultivable land holding in their names, are eligible subject to scheme exclusions.",
+    "benefits_text": "Income support of Rs. 6,000 per year is provided to eligible farmer families in three equal installments through Direct Benefit Transfer.",
+    "documents_required_text": "Aadhaar card, landholding details, bank account details, mobile number and other details required by State/UT authorities.",
+    "application_mode": "online/state verification",
+    "official_source_url": "https://pmkisan.gov.in/",
+    "myscheme_url": "https://www.myscheme.gov.in/schemes/pm-kisan",
+    "source_type": "official portal",
+    "eligibility_rules": {
+      "age_min": null,
+      "age_max": null,
+      "gender": "any",
+      "state": "All India",
+      "income_limit": null,
+      "eligible_castes": null,
+      "requires_farmer": true,
+      "requires_bpl": false,
+      "requires_disability": false,
+      "eligible_occupations": [
+        "farmer"
+      ],
+      "education_level": "any"
+    }
+  },
+  {
+    "scheme_id": "ab-pmjay",
+    "scheme_name": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)",
+    "ministry_or_department": "Ministry of Health & Family Welfare / National Health Authority",
+    "scheme_level": "central",
+    "state": null,
+    "launch_date": "2018-09-23",
+    "status": "active",
+    "category": [
+      "Health",
+      "Insurance",
+      "Hospitalization"
+    ],
+    "target_beneficiaries": "Poor and vulnerable families identified using deprivation and occupational criteria",
+    "eligibility_text": "Eligible beneficiary families are identified from deprivation and occupational criteria in rural and urban areas, as per the AB-PMJAY beneficiary database and state implementation rules.",
+    "benefits_text": "Cashless secondary and tertiary hospitalization cover up to Rs. 5 lakh per family per year at empanelled public and private hospitals.",
+    "documents_required_text": "Aadhaar card or other government ID, ration card/family ID where applicable, mobile number and eligibility verification documents as required.",
+    "application_mode": "online/offline at empanelled centres",
+    "official_source_url": "https://nha.gov.in/PM-JAY",
+    "myscheme_url": "https://www.myscheme.gov.in/schemes/ab-pmjay",
+    "source_type": "official portal",
+    "eligibility_rules": {
+      "age_min": null,
+      "age_max": null,
+      "gender": "any",
+      "state": "All India",
+      "income_limit": null,
+      "eligible_castes": null,
+      "requires_farmer": false,
+      "requires_bpl": true,
+      "requires_disability": false,
+      "eligible_occupations": null,
+      "education_level": "any"
+    }
+  },
+  {
+    "scheme_id": "pmjdy",
+    "scheme_name": "Pradhan Mantri Jan Dhan Yojana (PMJDY)",
+    "ministry_or_department": "Ministry of Finance, Department of Financial Services",
+    "scheme_level": "central",
+    "state": null,
+    "launch_date": "2014-08-28",
+    "status": "active",
+    "category": [
+      "Banking",
+      "Financial Inclusion"
+    ],
+    "target_beneficiaries": "Unbanked individuals and households",
+    "eligibility_text": "Any Indian citizen who does not have a bank account can open a Basic Savings Bank Deposit Account under the scheme, subject to bank KYC rules.",
+    "benefits_text": "Basic savings bank account, RuPay debit card, access to overdraft facility for eligible accounts, direct benefit transfer and financial inclusion services.",
+    "documents_required_text": "Aadhaar card, voter ID, driving licence, PAN card, passport, NREGA job card or other officially valid documents; small accounts may be opened with simplified KYC as per rules.",
+    "application_mode": "bank branch/banking correspondent",
+    "official_source_url": "https://pmjdy.gov.in/",
+    "myscheme_url": "https://www.myscheme.gov.in/schemes/pmjdy",
+    "source_type": "official portal",
+    "eligibility_rules": {
+      "age_min": null,
+      "age_max": null,
+      "gender": "any",
+      "state": "All India",
+      "income_limit": null,
+      "eligible_castes": null,
+      "requires_farmer": false,
+      "requires_bpl": false,
+      "requires_disability": false,
+      "eligible_occupations": null,
+      "education_level": "any"
+    }
+  },
+  {
+    "scheme_id": "pmuy",
+    "scheme_name": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+    "ministry_or_department": "Ministry of Petroleum & Natural Gas",
+    "scheme_level": "central",
+    "state": null,
+    "launch_date": "2016-05-01",
+    "status": "active",
+    "category": [
+      "Energy",
+      "LPG",
+      "Women Welfare"
+    ],
+    "target_beneficiaries": "Adult women from poor households without LPG connection",
+    "eligibility_text": "Applicant must be a woman above 18 years from an eligible poor household and must not already have an LPG connection in the household. Eligible categories include SC/ST households, PMAY-G beneficiaries, Antyodaya Anna Yojana beneficiaries and other approved categories.",
+    "benefits_text": "Deposit-free LPG connection with support for cylinder, pressure regulator and related items as per scheme rules.",
+    "documents_required_text": "Aadhaar of applicant, proof of address, bank account details, ration card/family composition document and KYC documents required by oil marketing companies.",
+    "application_mode": "online/LPG distributor",
+    "official_source_url": "https://www.pmuy.gov.in/",
+    "myscheme_url": "https://www.myscheme.gov.in/schemes/pmuy",
+    "source_type": "official portal",
+    "eligibility_rules": {
+      "age_min": 18,
+      "age_max": null,
+      "gender": "female",
+      "state": "All India",
+      "income_limit": null,
+      "eligible_castes": null,
+      "requires_farmer": false,
+      "requires_bpl": true,
+      "requires_disability": false,
+      "eligible_occupations": null,
+      "education_level": "any"
+    }
+  },
+  {
+    "scheme_id": "pmay-u",
+    "scheme_name": "Pradhan Mantri Awas Yojana - Urban (PMAY-U)",
+    "ministry_or_department": "Ministry of Housing and Urban Affairs",
+    "scheme_level": "central",
+    "state": null,
+    "launch_date": "2015-06-25",
+    "status": "active",
+    "category": [
+      "Housing",
+      "Urban Development"
+    ],
+    "target_beneficiaries": "Urban households from eligible income groups without pucca house",
+    "eligibility_text": "Beneficiary family should not own a pucca house in any part of India and must fall under eligible income/category criteria defined for PMAY-U components.",
+    "benefits_text": "Central assistance for affordable housing through beneficiary-led construction, affordable housing in partnership, in-situ slum redevelopment and credit-linked subsidy components where applicable.",
+    "documents_required_text": "Aadhaar details, income certificate/self-declaration, bank account details, property/land documents where applicable and category/residence documents.",
+    "application_mode": "online/urban local body/common service centre",
+    "official_source_url": "https://pmay-urban.gov.in/",
+    "myscheme_url": "https://www.myscheme.gov.in/hi/schemes/pmay-u",
+    "source_type": "official portal",
+    "eligibility_rules": {
+      "age_min": null,
+      "age_max": null,
+      "gender": "any",
+      "state": "All India",
+      "income_limit": null,
+      "eligible_castes": null,
+      "requires_farmer": false,
+      "requires_bpl": true,
+      "requires_disability": false,
+      "eligible_occupations": null,
+      "education_level": "any"
+    }
+  },
+  {
+    "scheme_id": "pmay-g",
+    "scheme_name": "Pradhan Mantri Awas Yojana - Gramin (PMAY-G)",
+    "ministry_or_department": "Ministry of Rural Development",
+    "scheme_level": "central",
+    "state": null,
+    "launch_date": "2016-04-01",
+    "status": "active",
+    "category": [
+      "Housing",
+      "Rural Development"
+    ],
+    "target_beneficiaries": "Rural homeless households and households living in kutcha/dilapidated houses",
+    "eligibility_text": "Eligible households are identified from deprivation parameters and Gram Sabha verification; household should be houseless or living in kutcha/dilapidated housing and should satisfy exclusion criteria.",
+    "benefits_text": "Financial assistance for construction of a pucca house with basic amenities, with convergence support from sanitation, LPG, electricity and wage employment schemes where applicable.",
+    "documents_required_text": "Aadhaar, bank account details, job card where applicable, beneficiary verification records and land/housing documents as required by local authorities.",
+    "application_mode": "local rural body/official MIS",
+    "official_source_url": "https://pmayg.nic.in/",
+    "myscheme_url": "https://rules.myscheme.gov.in/en/check-eligibility/pmay-g?source=myscheme",
+    "source_type": "official portal",
+    "eligibility_rules": {
+      "age_min": null,
+      "age_max": null,
+      "gender": "any",
+      "state": "All India",
+      "income_limit": null,
+      "eligible_castes": null,
+      "requires_farmer": false,
+      "requires_bpl": true,
+      "requires_disability": false,
+      "eligible_occupations": null,
+      "education_level": "any"
+    }
+  },
+  {
+    "scheme_id": "pmsby",
+    "scheme_name": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+    "ministry_or_department": "Ministry of Finance, Department of Financial Services",
+    "scheme_level": "central",
+    "state": null,
+    "launch_date": "2015-05-09",
+    "status": "active",
+    "category": [
+      "Insurance",
+      "Accident Cover"
+    ],
+    "target_beneficiaries": "Bank/post office account holders aged 18 to 70 years",
+    "eligibility_text": "Individuals aged 18 to 70 years with a savings bank or post office account and consent for auto-debit of premium are eligible.",
+    "benefits_text": "Accidental death and disability insurance cover as per scheme terms, renewed annually on payment of premium.",
+    "documents_required_text": "Bank/post office account, Aadhaar/KYC document, consent for auto-debit and nominee details.",
+    "application_mode": "bank/post office/online banking",
+    "official_source_url": "https://financialservices.gov.in/",
+    "myscheme_url": "https://www.myscheme.gov.in/schemes/pmsby",
+    "source_type": "official portal",
+    "eligibility_rules": {
+      "age_min": 18,
+      "age_max": 70,
+      "gender": "any",
+      "state": "All India",
+      "income_limit": null,
+      "eligible_castes": null,
+      "requires_farmer": false,
+      "requires_bpl": false,
+      "requires_disability": false,
+      "eligible_occupations": null,
+      "education_level": "any"
+    }
+  },
+  {
+    "scheme_id": "pmjjby",
+    "scheme_name": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+    "ministry_or_department": "Ministry of Finance, Department of Financial Services",
+    "scheme_level": "central",
+    "state": null,
+    "launch_date": "2015-05-09",
+    "status": "active",
+    "category": [
+      "Insurance",
+      "Life Cover"
+    ],
+    "target_beneficiaries": "Bank/post office account holders aged 18 to 50 years",
+    "eligibility_text": "Individuals aged 18 to 50 years with a savings bank or post office account are eligible to join by giving consent for auto-debit of premium.",
+    "benefits_text": "Life insurance cover payable to nominee on death of the insured member, subject to scheme rules and annual renewal.",
+    "documents_required_text": "Bank/post office account, Aadhaar/KYC document, consent for auto-debit and nominee details.",
+    "application_mode": "bank/post office/online banking",
+    "official_source_url": "https://financialservices.gov.in/",
+    "myscheme_url": "https://www.myscheme.gov.in/schemes/pmjjby",
+    "source_type": "official portal",
+    "eligibility_rules": {
+      "age_min": 18,
+      "age_max": 50,
+      "gender": "any",
+      "state": "All India",
+      "income_limit": null,
+      "eligible_castes": null,
+      "requires_farmer": false,
+      "requires_bpl": false,
+      "requires_disability": false,
+      "eligible_occupations": null,
+      "education_level": "any"
+    }
+  },
+  {
+    "scheme_id": "apy",
+    "scheme_name": "Atal Pension Yojana (APY)",
+    "ministry_or_department": "Ministry of Finance / Pension Fund Regulatory and Development Authority",
+    "scheme_level": "central",
+    "state": null,
+    "launch_date": "2015-05-09",
+    "status": "active",
+    "category": [
+      "Pension",
+      "Social Security"
+    ],
+    "target_beneficiaries": "Savings bank account holders aged 18 to 40 years, mainly workers in the unorganised sector",
+    "eligibility_text": "Applicant must be an Indian citizen, aged 18 to 40 years, have a savings bank/post office account and should not be an income-tax payer as per current eligibility rules.",
+    "benefits_text": "Guaranteed minimum pension from age 60 depending on contribution amount and age of joining, subject to APY rules.",
+    "documents_required_text": "Aadhaar/KYC, savings bank or post office account, mobile number and nominee/spouse details.",
+    "application_mode": "bank/post office/online",
+    "official_source_url": "https://www.npscra.nsdl.co.in/scheme-details.php",
+    "myscheme_url": "https://www.myscheme.gov.in/schemes/apy",
+    "source_type": "official portal",
+    "eligibility_rules": {
+      "age_min": 18,
+      "age_max": 40,
+      "gender": "any",
+      "state": "All India",
+      "income_limit": null,
+      "eligible_castes": null,
+      "requires_farmer": false,
+      "requires_bpl": false,
+      "requires_disability": false,
+      "eligible_occupations": [
+        "unorganised_sector"
+      ],
+      "education_level": "any"
+    }
+  },
+  {
+    "scheme_id": "pm-sym",
+    "scheme_name": "Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM)",
+    "ministry_or_department": "Ministry of Labour & Employment",
+    "scheme_level": "central",
+    "state": null,
+    "launch_date": "2019-02-15",
+    "status": "active",
+    "category": [
+      "Pension",
+      "Unorganised Workers"
+    ],
+    "target_beneficiaries": "Unorganised workers aged 18 to 40 years with monthly income up to Rs. 15,000",
+    "eligibility_text": "Applicant must be an unorganised worker aged 18 to 40 years, monthly income should be Rs. 15,000 or less, and the applicant should not be covered under EPFO, ESIC, NPS or be an income-tax payer.",
+    "benefits_text": "Assured monthly pension after attaining 60 years of age, based on regular contribution and matching contribution by Government of India.",
+    "documents_required_text": "Aadhaar card, savings bank account/Jan Dhan account with IFSC, mobile number and self-certification of occupation/income.",
+    "application_mode": "Common Service Centre/self-enrolment",
+    "official_source_url": "https://maandhan.in/",
+    "myscheme_url": "https://www.myscheme.gov.in/schemes/pm-sym",
+    "source_type": "official portal",
+    "eligibility_rules": {
+      "age_min": 18,
+      "age_max": 40,
+      "gender": "any",
+      "state": "All India",
+      "income_limit": 180000,
+      "eligible_castes": null,
+      "requires_farmer": false,
+      "requires_bpl": false,
+      "requires_disability": false,
+      "eligible_occupations": [
+        "unorganised_sector"
+      ],
+      "education_level": "any"
+    }
+  },
+  {
+    "scheme_id": "pm-svanidhi",
+    "scheme_name": "PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi)",
+    "ministry_or_department": "Ministry of Housing and Urban Affairs",
+    "scheme_level": "central",
+    "state": null,
+    "launch_date": "2020-06-01",
+    "status": "active",
+    "category": [
+      "Livelihood",
+      "Micro Credit",
+      "Urban"
+    ],
+    "target_beneficiaries": "Urban street vendors",
+    "eligibility_text": "Street vendors in possession of Certificate of Vending/Identity Card issued by Urban Local Bodies, or vendors identified in ULB survey, or eligible vendors recommended through required letters are covered as per scheme rules.",
+    "benefits_text": "Collateral-free working capital loan in progressive tranches, interest subsidy on timely repayment and incentives for digital transactions.",
+    "documents_required_text": "Certificate of Vending or Identity Card, Aadhaar, mobile number linked with Aadhaar, bank account details and other ULB verification documents where applicable.",
+    "application_mode": "online/ULB/lending institution",
+    "official_source_url": "https://pmsvanidhi.mohua.gov.in/",
+    "myscheme_url": "https://www.myscheme.gov.in/schemes/pm-svanidhi",
+    "source_type": "official portal",
+    "eligibility_rules": {
+      "age_min": null,
+      "age_max": null,
+      "gender": "any",
+      "state": "All India",
+      "income_limit": null,
+      "eligible_castes": null,
+      "requires_farmer": false,
+      "requires_bpl": false,
+      "requires_disability": false,
+      "eligible_occupations": [
+        "self_employed"
+      ],
+      "education_level": "any"
+    }
+  },
+  {
+    "scheme_id": "pmmy",
+    "scheme_name": "Pradhan Mantri Mudra Yojana (PMMY)",
+    "ministry_or_department": "Ministry of Finance",
+    "scheme_level": "central",
+    "state": null,
+    "launch_date": "2015-04-08",
+    "status": "active",
+    "category": [
+      "Entrepreneurship",
+      "Credit",
+      "MSME"
+    ],
+    "target_beneficiaries": "Non-corporate, non-farm small/micro enterprises",
+    "eligibility_text": "Indian citizens seeking loans for eligible income-generating non-farm micro/small business activities can apply through banks, NBFCs and MFIs as per lending norms.",
+    "benefits_text": "Collateral-free institutional credit under Shishu, Kishore and Tarun categories for micro-enterprises and small businesses.",
+    "documents_required_text": "Identity proof, address proof, business plan/quotation, bank account details, category certificate if applicable and lender-specific KYC/business documents.",
+    "application_mode": "bank/NBFC/MFI/online portal",
+    "official_source_url": "https://www.mudra.org.in/",
+    "myscheme_url": "https://www.myscheme.gov.in/schemes/pmmy",
+    "source_type": "official portal",
+    "eligibility_rules": {
+      "age_min": null,
+      "age_max": null,
+      "gender": "any",
+      "state": "All India",
+      "income_limit": null,
+      "eligible_castes": null,
+      "requires_farmer": false,
+      "requires_bpl": false,
+      "requires_disability": false,
+      "eligible_occupations": [
+        "msme_owner",
+        "self_employed",
+        "artisan"
+      ],
+      "education_level": "any"
+    }
+  },
+  {
+    "scheme_id": "kcc",
+    "scheme_name": "Kisan Credit Card (KCC)",
+    "ministry_or_department": "Ministry of Agriculture & Farmers Welfare / Department of Financial Services",
+    "scheme_level": "central",
+    "state": null,
+    "launch_date": null,
+    "status": "active",
+    "category": [
+      "Agriculture",
+      "Credit"
+    ],
+    "target_beneficiaries": "Farmers, tenant farmers, sharecroppers, self-help groups and allied activity producers as per bank norms",
+    "eligibility_text": "Farmers including individual/joint cultivators, tenant farmers, oral lessees, sharecroppers and eligible groups engaged in agriculture and allied activities may apply subject to bank appraisal.",
+    "benefits_text": "Timely and adequate credit support for crop cultivation, post-harvest expenses, consumption needs and allied activities with interest subvention where applicable.",
+    "documents_required_text": "Application form, identity/address proof, land records or cultivation proof, bank account details, crop details and other documents required by the bank.",
+    "application_mode": "bank/online",
+    "official_source_url": "https://www.myscheme.gov.in/schemes/kcc",
+    "myscheme_url": "https://www.myscheme.gov.in/schemes/kcc",
+    "source_type": "myScheme",
+    "eligibility_rules": {
+      "age_min": null,
+      "age_max": null,
+      "gender": "any",
+      "state": "All India",
+      "income_limit": null,
+      "eligible_castes": null,
+      "requires_farmer": true,
+      "requires_bpl": false,
+      "requires_disability": false,
+      "eligible_occupations": [
+        "farmer"
+      ],
+      "education_level": "any"
+    }
+  },
+  {
+    "scheme_id": "scss",
+    "scheme_name": "Senior Citizens Savings Scheme (SCSS)",
+    "ministry_or_department": "Ministry of Finance / Department of Posts and authorised banks",
+    "scheme_level": "central",
+    "state": null,
+    "launch_date": null,
+    "status": "active",
+    "category": [
+      "Savings",
+      "Senior Citizens",
+      "Tax Benefit"
+    ],
+    "target_beneficiaries": "Senior citizens and eligible retired persons",
+    "eligibility_text": "Individuals aged 60 years and above, and eligible retired civilian/defence employees within prescribed age and time limits, may open an SCSS account as per rules.",
+    "benefits_text": "Government-backed savings instrument with quarterly interest payout and tax benefit under applicable provisions.",
+    "documents_required_text": "Account opening form, age proof, identity/address proof, PAN, photographs and retirement proof where applicable.",
+    "application_mode": "post office/authorised bank",
+    "official_source_url": "https://www.indiapost.gov.in/Financial/Pages/Content/Post-Office-Saving-Schemes.aspx",
+    "myscheme_url": "https://www.myscheme.gov.in/schemes/scss",
+    "source_type": "official portal",
+    "eligibility_rules": {
+      "age_min": 60,
+      "age_max": null,
+      "gender": "any",
+      "state": "All India",
+      "income_limit": null,
+      "eligible_castes": null,
+      "requires_farmer": false,
+      "requires_bpl": false,
+      "requires_disability": false,
+      "eligible_occupations": null,
+      "education_level": "any"
+    }
+  },
+  {
+    "scheme_id": "mssc",
+    "scheme_name": "Mahila Samman Savings Certificate",
+    "ministry_or_department": "Ministry of Finance / Department of Posts and authorised banks",
+    "scheme_level": "central",
+    "state": null,
+    "launch_date": "2023-04-01",
+    "status": "active",
+    "category": [
+      "Savings",
+      "Women Welfare"
+    ],
+    "target_beneficiaries": "Women and girl children",
+    "eligibility_text": "An account may be opened by a woman for herself or by a guardian on behalf of a minor girl, subject to scheme deposit limits and rules.",
+    "benefits_text": "Small savings deposit scheme for women/girls with fixed tenure and notified interest rate, subject to partial withdrawal and closure rules.",
+    "documents_required_text": "Account opening form, KYC documents, PAN where required, Aadhaar and deposit amount details.",
+    "application_mode": "post office/authorised bank",
+    "official_source_url": "https://www.indiapost.gov.in/Financial/Pages/Content/Post-Office-Saving-Schemes.aspx",
+    "myscheme_url": "https://www.myscheme.gov.in/schemes/mssc",
+    "source_type": "official portal",
+    "eligibility_rules": {
+      "age_min": null,
+      "age_max": null,
+      "gender": "female",
+      "state": "All India",
+      "income_limit": null,
+      "eligible_castes": null,
+      "requires_farmer": false,
+      "requires_bpl": false,
+      "requires_disability": false,
+      "eligible_occupations": null,
+      "education_level": "any"
+    }
+  },
+  {
+    "scheme_id": "ssy",
+    "scheme_name": "Sukanya Samriddhi Yojana (SSY)",
+    "ministry_or_department": "Ministry of Finance / Department of Posts and authorised banks",
+    "scheme_level": "central",
+    "state": null,
+    "launch_date": "2015-01-22",
+    "status": "active",
+    "category": [
+      "Savings",
+      "Girl Child",
+      "Tax Benefit"
+    ],
+    "target_beneficiaries": "Girl children below prescribed age limit",
+    "eligibility_text": "A guardian may open an account in the name of a girl child below 10 years of age, subject to the maximum number of accounts permitted per family under rules.",
+    "benefits_text": "Government-backed small savings scheme for education and marriage expenses of girl child with notified interest rate and tax benefits as applicable.",
+    "documents_required_text": "Birth certificate of girl child, identity/address proof of guardian, PAN/Aadhaar where required and account opening form.",
+    "application_mode": "post office/authorised bank",
+    "official_source_url": "https://www.indiapost.gov.in/Financial/Pages/Content/Post-Office-Saving-Schemes.aspx",
+    "myscheme_url": "https://www.myscheme.gov.in/schemes/ssy",
+    "source_type": "official portal",
+    "eligibility_rules": {
+      "age_min": null,
+      "age_max": 10,
+      "gender": "female",
+      "state": "All India",
+      "income_limit": null,
+      "eligible_castes": null,
+      "requires_farmer": false,
+      "requires_bpl": false,
+      "requires_disability": false,
+      "eligible_occupations": null,
+      "education_level": "any"
+    }
+  },
+  {
+    "scheme_id": "kvp",
+    "scheme_name": "Kisan Vikas Patra Scheme (KVP)",
+    "ministry_or_department": "Ministry of Finance / Department of Posts and authorised banks",
+    "scheme_level": "central",
+    "state": null,
+    "launch_date": null,
+    "status": "active",
+    "category": [
+      "Savings",
+      "Investment"
+    ],
+    "target_beneficiaries": "Resident individuals and eligible guardians",
+    "eligibility_text": "Resident Indian adults may open an account individually or jointly; guardians may open accounts on behalf of minors/persons of unsound mind as per scheme rules.",
+    "benefits_text": "Government-backed savings certificate where deposited amount doubles after the maturity period notified by the Government.",
+    "documents_required_text": "KYC documents, PAN/Aadhaar where required, account opening form and deposit amount details.",
+    "application_mode": "post office/authorised bank",
+    "official_source_url": "https://www.indiapost.gov.in/Financial/Pages/Content/Post-Office-Saving-Schemes.aspx",
+    "myscheme_url": "https://www.myscheme.gov.in/schemes/kvps",
+    "source_type": "official portal",
+    "eligibility_rules": {
+      "age_min": null,
+      "age_max": null,
+      "gender": "any",
+      "state": "All India",
+      "income_limit": null,
+      "eligible_castes": null,
+      "requires_farmer": false,
+      "requires_bpl": false,
+      "requires_disability": false,
+      "eligible_occupations": null,
+      "education_level": "any"
+    }
+  },
+  {
+    "scheme_id": "pm-vishwakarma",
+    "scheme_name": "PM Vishwakarma",
+    "ministry_or_department": "Ministry of Micro, Small & Medium Enterprises",
+    "scheme_level": "central",
+    "state": null,
+    "launch_date": "2023-09-17",
+    "status": "active",
+    "category": [
+      "Skill Development",
+      "Artisans",
+      "Credit"
+    ],
+    "target_beneficiaries": "Traditional artisans and craftspeople working with hands and tools",
+    "eligibility_text": "Applicant should be an artisan or craftsperson working with hands and tools in one of the notified family-based traditional trades, meet age and family restrictions, and should not have taken similar government loans under specified schemes in the recent exclusion period.",
+    "benefits_text": "Recognition through certificate and ID card, skill training, toolkit incentive, credit support, digital transaction incentives and marketing support.",
+    "documents_required_text": "Aadhaar card, mobile number, bank account details, ration card/family details and occupation/trade verification information.",
+    "application_mode": "online through CSC/PM Vishwakarma portal",
+    "official_source_url": "https://pmvishwakarma.gov.in/",
+    "myscheme_url": "https://www.myscheme.gov.in/schemes/pmv",
+    "source_type": "official portal",
+    "eligibility_rules": {
+      "age_min": null,
+      "age_max": null,
+      "gender": "any",
+      "state": "All India",
+      "income_limit": null,
+      "eligible_castes": null,
+      "requires_farmer": false,
+      "requires_bpl": false,
+      "requires_disability": false,
+      "eligible_occupations": [
+        "artisan"
+      ],
+      "education_level": "any"
+    }
+  },
+  {
+    "scheme_id": "post-matric-sc",
+    "scheme_name": "Post-Matric Scholarship for SC Students",
+    "ministry_or_department": "Ministry of Social Justice & Empowerment",
+    "scheme_level": "centrally_sponsored",
+    "state": null,
+    "launch_date": null,
+    "status": "active",
+    "category": [
+      "Education",
+      "Scholarship",
+      "Scheduled Caste"
+    ],
+    "target_beneficiaries": "Scheduled Caste students studying at post-matric/post-secondary level",
+    "eligibility_text": "Student should belong to Scheduled Caste category, be studying in a recognized post-matric/post-secondary course, and satisfy income and academic conditions notified by the scheme/state implementation rules.",
+    "benefits_text": "Scholarship support may include compulsory non-refundable fees, academic allowance/maintenance allowance and other admissible components as per scheme guidelines.",
+    "documents_required_text": "Caste certificate, income certificate, Aadhaar, bank account details, previous marksheet, admission/enrollment proof, fee receipt and institution verification documents.",
+    "application_mode": "National Scholarship Portal/state scholarship portal",
+    "official_source_url": "https://socialjustice.gov.in/",
+    "myscheme_url": "https://www.myscheme.gov.in/schemes/pmsfss",
+    "source_type": "official portal",
+    "eligibility_rules": {
+      "age_min": null,
+      "age_max": null,
+      "gender": "any",
+      "state": "All India",
+      "income_limit": null,
+      "eligible_castes": [
+        "SC"
+      ],
+      "requires_farmer": false,
+      "requires_bpl": false,
+      "requires_disability": false,
+      "eligible_occupations": [
+        "student"
+      ],
+      "education_level": "post-matric"
+    }
+  },
+  {
+    "scheme_id": "pm-yasasvi-post-matric-obc-ebc-dnt",
+    "scheme_name": "PM-YASASVI: Post-Matric Scholarship for OBC, EBC and DNT Students",
+    "ministry_or_department": "Ministry of Social Justice & Empowerment",
+    "scheme_level": "central",
+    "state": null,
+    "launch_date": null,
+    "status": "active",
+    "category": [
+      "Education",
+      "Scholarship",
+      "OBC",
+      "EBC",
+      "DNT"
+    ],
+    "target_beneficiaries": "OBC, EBC and DNT students studying at post-matric level",
+    "eligibility_text": "Applicant should belong to eligible OBC/EBC/DNT category, be studying in a recognized post-matric course and satisfy income, academic and institutional conditions under scheme rules.",
+    "benefits_text": "Financial assistance for eligible post-matric education expenses, including maintenance allowance and compulsory non-refundable fees as per guidelines.",
+    "documents_required_text": "Category certificate, income certificate, Aadhaar, bank details, previous marksheet, admission proof, fee receipt and institution documents.",
+    "application_mode": "National Scholarship Portal/state portal",
+    "official_source_url": "https://socialjustice.gov.in/",
+    "myscheme_url": "https://www.myscheme.gov.in/schemes/pm-yasasvipmsobcebcdnts",
+    "source_type": "official portal",
+    "eligibility_rules": {
+      "age_min": null,
+      "age_max": null,
+      "gender": "any",
+      "state": "All India",
+      "income_limit": null,
+      "eligible_castes": [
+        "OBC",
+        "EBC",
+        "DNT"
+      ],
+      "requires_farmer": false,
+      "requires_bpl": false,
+      "requires_disability": false,
+      "eligible_occupations": [
+        "student"
+      ],
+      "education_level": "post-matric"
+    }
+  },
+  {
+    "scheme_id": "pm-cares-children",
+    "scheme_name": "PM CARES for Children Scheme",
+    "ministry_or_department": "Ministry of Women & Child Development",
+    "scheme_level": "central",
+    "state": null,
+    "launch_date": "2021-05-29",
+    "status": "active",
+    "category": [
+      "Child Welfare",
+      "COVID-19 Relief",
+      "Education Support"
+    ],
+    "target_beneficiaries": "Children who lost both parents/legal guardian/adoptive parents/surviving parent due to COVID-19 during the notified period",
+    "eligibility_text": "Children who lost both parents, legal guardian, adoptive parents or surviving parent to COVID-19 pandemic during the notified period are eligible subject to verification by competent authorities.",
+    "benefits_text": "Support package including corpus for the child, education support, health insurance and assistance as per scheme guidelines.",
+    "documents_required_text": "Child identity proof, death certificates of parent(s)/guardian, COVID-19 related documentation where required, relationship/guardianship proof, bank account and district verification records.",
+    "application_mode": "online/district child protection authorities",
+    "official_source_url": "https://pmcaresforchildren.in/",
+    "myscheme_url": null,
+    "source_type": "official portal",
+    "eligibility_rules": {
+      "age_min": null,
+      "age_max": null,
+      "gender": "any",
+      "state": "All India",
+      "income_limit": null,
+      "eligible_castes": null,
+      "requires_farmer": false,
+      "requires_bpl": false,
+      "requires_disability": false,
+      "eligible_occupations": null,
+      "education_level": "any"
+    }
+  }
+]
