@@ -107,7 +107,7 @@ function DocumentVerification() {
         <EmptyState
           title="Citizen profile required"
           message="Create or save a citizen profile before running document verification."
-          action={<Button as={Link} to="/profile">Go to Profile</Button>}
+          action={<Button as={Link} size="sm" to="/profile">Go to Profile</Button>}
         />
       )}
 
@@ -132,7 +132,7 @@ function DocumentVerification() {
               <Button type="submit" disabled={loading || !citizenProfile}>
                 {loading ? "Verifying..." : "Verify Document"}
               </Button>
-              <Button as={Link} variant="secondary" to="/profile">
+              <Button as={Link} variant="secondary" size="sm" to="/profile">
                 Edit Profile
               </Button>
             </div>

@@ -81,18 +81,18 @@ function SchemeDetails() {
         {hasEvaluation && (
           <div className="detail-score-card">
             <strong>{finalScore}%</strong>
-            <span>Final Score</span>
+            <span>Recommendation Score</span>
           </div>
         )}
       </section>
 
       {hasEvaluation && (
-        <Card title="Eligibility Evaluation" subtitle="Scores from rule checks and ML ranking.">
+        <Card title="Eligibility Evaluation" subtitle="Profile match indicators used for this recommendation.">
           <div className="score-mini-grid detail-score-grid">
-            <span>Rule <strong>{ruleScore ?? "N/A"}%</strong></span>
-            <span>ML <strong>{mlScore === null || mlScore === undefined ? "N/A" : `${mlScore}%`}</strong></span>
-            <span>Semantic <strong>{semanticScore === null || semanticScore === undefined ? "N/A" : `${semanticScore}%`}</strong></span>
-            <span>Model <strong>{modelScore === null || modelScore === undefined ? "N/A" : `${modelScore}%`}</strong></span>
+            <span>Eligibility Match <strong>{ruleScore ?? "N/A"}%</strong></span>
+            <span>Profile Relevance <strong>{mlScore === null || mlScore === undefined ? "N/A" : `${mlScore}%`}</strong></span>
+            <span>Scheme Similarity <strong>{semanticScore === null || semanticScore === undefined ? "N/A" : `${semanticScore}%`}</strong></span>
+            <span>Profile Fit <strong>{modelScore === null || modelScore === undefined ? "N/A" : `${modelScore}%`}</strong></span>
           </div>
 
           <div className="condition-preview-grid detail-condition-grid">
@@ -123,7 +123,7 @@ function SchemeDetails() {
         <DetailSection title="Last Verified">{scheme.last_verified}</DetailSection>
       </div>
 
-      <Card title="Source URLs" subtitle="Official source links stored for this scheme.">
+      <Card title="Source Links" subtitle="Review source information before final submission.">
         {sourceUrls.length > 0 ? (
           <ul className="source-link-list">
             {sourceUrls.map((url) => (
@@ -139,13 +139,13 @@ function SchemeDetails() {
 
       <div className="button-row">
         {scheme.application_url ? (
-          <Button as="a" href={scheme.application_url} target="_blank" rel="noreferrer" icon={ExternalLink}>
+          <Button as="a" size="sm" href={scheme.application_url} target="_blank" rel="noreferrer" icon={ExternalLink}>
             Apply Now
           </Button>
         ) : (
-          <Button type="button" disabled>Apply Now</Button>
+          <Button type="button" size="sm" disabled>Apply Now</Button>
         )}
-        <Button as={Link} variant="secondary" to="/recommended" icon={ArrowLeft}>
+        <Button as={Link} variant="secondary" size="sm" to="/recommended" icon={ArrowLeft}>
           Back to Recommendations
         </Button>
       </div>

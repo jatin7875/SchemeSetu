@@ -8,13 +8,15 @@ function Button({
   icon: Icon,
   ...props
 }) {
+  const iconSize = size === "sm" ? 15 : 16;
+
   return (
     <Component
       className={`ui-button ui-button-${variant} ui-button-${size} ${className}`.trim()}
       type={Component === "button" ? type : undefined}
       {...props}
     >
-      {Icon && <Icon size={18} aria-hidden="true" />}
+      {Icon && <Icon size={iconSize} aria-hidden="true" />}
       <span>{children}</span>
     </Component>
   );

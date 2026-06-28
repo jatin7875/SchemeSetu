@@ -8,6 +8,7 @@ import StateWiseChart from "../components/charts/StateWiseChart.jsx";
 import IncomeGroupChart from "../components/charts/IncomeGroupChart.jsx";
 import MatchDistributionChart from "../components/charts/MatchDistributionChart.jsx";
 import CategoryWiseChart from "../components/charts/CategoryWiseChart.jsx";
+import Button from "../components/ui/Button.jsx";
 import { getAnalyticsDashboard, resetAnalytics } from "../services/analyticsService.js";
 import { formatCount, formatDateTime } from "../utils/analyticsFormatters.js";
 
@@ -104,9 +105,9 @@ function AnalyticsDashboard() {
         <div className="dashboard-error">
           <h1>Unable to load analytics</h1>
           <p>{error}</p>
-          <button className="button" type="button" onClick={() => loadAnalytics()}>
+          <Button type="button" size="sm" onClick={() => loadAnalytics()}>
             Retry
-          </button>
+          </Button>
         </div>
       </section>
     );
@@ -127,12 +128,12 @@ function AnalyticsDashboard() {
         </div>
 
         <div className="analytics-actions">
-          <button className="button secondary" type="button" onClick={() => loadAnalytics({ silent: true })} disabled={refreshing}>
+          <Button variant="secondary" size="sm" type="button" onClick={() => loadAnalytics({ silent: true })} disabled={refreshing}>
             {refreshing ? "Refreshing..." : "Refresh"}
-          </button>
-          <button className="button danger" type="button" onClick={handleReset}>
+          </Button>
+          <Button variant="danger" size="sm" type="button" onClick={handleReset}>
             Reset
-          </button>
+          </Button>
         </div>
       </div>
 
@@ -146,7 +147,7 @@ function AnalyticsDashboard() {
       <div className="stats-grid">
         <StatCard label="Total applications" value={formatCount(summary.total_applications)} helper="Citizen profiles submitted" accent="teal" icon="A" />
         <StatCard label="Total recommendations" value={formatCount(summary.total_recommendations)} helper="Schemes returned by engine" accent="slate" icon="R" />
-        <StatCard label="Average final score" value={`${summary.average_final_score || 0}%`} helper="Rule and ML blended score" accent="saffron" icon="S" />
+        <StatCard label="Average recommendation score" value={`${summary.average_final_score || 0}%`} helper="Combined profile match score" accent="saffron" icon="S" />
         <StatCard label="Likely eligible" value={formatCount(summary.likely_eligible_count)} helper="High scoring recommendations" accent="green" icon="L" />
         <StatCard label="Partially eligible" value={formatCount(summary.partially_eligible_count)} helper="Needs closer verification" accent="amber" icon="P" />
         <StatCard label="Not eligible" value={formatCount(summary.not_eligible_count)} helper="Low scoring recommendations" accent="red" icon="N" />

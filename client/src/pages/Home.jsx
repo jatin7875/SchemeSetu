@@ -13,12 +13,12 @@ const steps = [
 ];
 
 const features = [
-  { icon: CheckCircle2, title: "Rule-Based Eligibility Engine", text: "Checks scheme conditions against profile attributes." },
-  { icon: BarChart3, title: "ML Ranking Layer", text: "Ranks matching schemes using the saved profile and scheme features." },
-  { icon: FileCheck2, title: "OCR Document Verification", text: "Extracts document text and highlights matching or missing fields." },
-  { icon: BarChart3, title: "Analytics Dashboard", text: "Shows recommendation trends, categories and recent submissions." },
+  { icon: CheckCircle2, title: "Eligibility Conditions", text: "Checks scheme conditions against profile attributes." },
+  { icon: BarChart3, title: "Profile Match Ranking", text: "Ranks matching schemes using the saved profile and scheme features." },
+  { icon: FileCheck2, title: "Document Check", text: "Reads uploaded document details and highlights matching or missing fields." },
+  { icon: BarChart3, title: "Scheme Insights", text: "Shows recommendation trends, categories and recent submissions." },
   { icon: Settings, title: "Admin Scheme Management", text: "Lets admins add temporary schemes and extract eligibility rules." },
-  { icon: Database, title: "Official Source Dataset", text: "Designed around official scheme pages, PDFs and public datasets." }
+  { icon: Database, title: "Source Information", text: "Designed around scheme pages, PDFs and public datasets." }
 ];
 
 const sources = ["myScheme.gov.in", "india.gov.in", "data.gov.in", "Ministry PDFs", "State e-District Portals"];
@@ -35,8 +35,8 @@ function Home() {
             recommendations, and verify documents using official scheme information.
           </p>
           <div className="portal-actions">
-            <Button as={Link} to="/profile">Check Eligibility</Button>
-            <Button as={Link} to="/dashboard" variant="secondary">View Dashboard</Button>
+            <Button as={Link} size="lg" to="/profile">Check Eligibility</Button>
+            <Button as={Link} size="lg" to="/dashboard" variant="secondary">View Dashboard</Button>
           </div>
         </div>
 
@@ -44,14 +44,14 @@ function Home() {
           <div className="visual-card main-result-card">
             <div>
               <span>Profile</span>
-              <strong>Student, OBC, Maharashtra</strong>
+              <strong>OBC, Maharashtra, undergraduate</strong>
             </div>
             <div className="visual-score-row">
-              <span>Rule Score <b>86%</b></span>
+              <span>Eligibility Match <b>86%</b></span>
               <ProgressBar value={86} />
             </div>
             <div className="visual-score-row">
-              <span>ML Rank <b>79%</b></span>
+              <span>Profile Relevance <b>79%</b></span>
               <ProgressBar value={79} tone="secondary" />
             </div>
             <div className="final-match-box">
@@ -61,7 +61,7 @@ function Home() {
           </div>
 
           <div className="floating-portal-card card-one">20+ starter schemes</div>
-          <div className="floating-portal-card card-two">Official source links</div>
+          <div className="floating-portal-card card-two">Scheme source links</div>
           <div className="floating-portal-card card-three">OCR verification</div>
           <div className="floating-portal-card card-four">Analytics dashboard</div>
         </div>
@@ -103,12 +103,12 @@ function Home() {
       <section className="source-trust-section">
         <div>
           <SectionHeader
-            eyebrow="Official-source focused"
-            title="Built on official scheme information"
+            eyebrow="Source-information focused"
+            title="Built on scheme source information"
             subtitle="SchemeSetu is designed to work with government scheme pages, ministry PDFs and state portal records."
           />
           <p>
-            Final eligibility must be verified on official scheme portals before applying.
+            Users should refer to the respective scheme source link before final submission.
           </p>
         </div>
         <div className="source-chip-grid">

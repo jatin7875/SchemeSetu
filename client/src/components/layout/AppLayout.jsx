@@ -5,8 +5,8 @@ function AppLayout({ children }) {
   return (
     <div className="app-layout">
       <div className="gov-strip">
-        <span>SchemeSetu | Government Scheme Eligibility & Decision Support</span>
-        <span>Student Project Demo - Verify details on official portals</span>
+        <span>SchemeSetu | Scheme Eligibility & Citizen Assistance Platform</span>
+        <span>Guided workflow for scheme discovery and document preparation</span>
       </div>
       <Navbar />
       <main className="app-main">{children}</main>

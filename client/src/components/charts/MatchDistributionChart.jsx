@@ -18,7 +18,7 @@ function MatchDistributionChart({ data }) {
   }));
 
   return (
-    <ChartShell title="Scheme Match Distribution" subtitle="Recommendation counts by final score range" data={chartData}>
+    <ChartShell title="Scheme Match Distribution" subtitle="Recommendation counts by score range" data={chartData}>
       <ResponsiveContainer width="100%" height={320}>
         <PieChart>
           <Pie

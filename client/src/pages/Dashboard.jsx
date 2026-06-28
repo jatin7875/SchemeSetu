@@ -99,7 +99,7 @@ function Dashboard() {
         eyebrow="Dashboard"
         title="SchemeSetu overview"
         subtitle="Review scheme coverage, recommendation outcomes, and recent verification activity."
-        actions={<Button type="button" variant="secondary" onClick={fetchDashboard}>Refresh</Button>}
+        actions={<Button type="button" variant="secondary" size="sm" onClick={fetchDashboard}>Refresh</Button>}
       />
 
       <div className="dashboard-grid">
@@ -108,7 +108,7 @@ function Dashboard() {
         <StatTile label="Likely eligible" value={recommendationStats.likelyEligible} helper="High-scoring matches" icon={SearchCheck} tone="green" />
         <StatTile label="Partially eligible" value={recommendationStats.partiallyEligible} helper="Needs closer review" icon={SearchCheck} tone="amber" />
         <StatTile label="Not eligible" value={recommendationStats.notEligible} helper="Low-scoring matches" icon={SearchCheck} tone="red" />
-        <StatTile label="Average final score" value={`${recommendationStats.averageFinalScore}%`} helper="Rule and ML combined score" icon={BarChart3} tone="saffron" />
+        <StatTile label="Average recommendation score" value={`${recommendationStats.averageFinalScore}%`} helper="Combined profile match score" icon={BarChart3} tone="saffron" />
       </div>
 
       <div className="dashboard-two-column">
@@ -151,20 +151,20 @@ function Dashboard() {
 
         <Card title="Quick Actions" subtitle="Jump to common SchemeSetu workflows.">
           <div className="quick-action-grid">
-            <Button as={Link} to="/profile" icon={SearchCheck}>Check Eligibility</Button>
-            <Button as={Link} to="/verify-document" variant="secondary" icon={FileCheck2}>Verify Document</Button>
-            <Button as={Link} to="/admin/add-scheme" variant="secondary" icon={PlusCircle}>Add Scheme</Button>
-            <Button as={Link} to="/analytics" variant="secondary" icon={BarChart3}>View Analytics</Button>
+            <Button as={Link} size="sm" to="/profile" icon={SearchCheck}>Check Eligibility</Button>
+            <Button as={Link} size="sm" to="/verify-document" variant="secondary" icon={FileCheck2}>Verify Document</Button>
+            <Button as={Link} size="sm" to="/admin/add-scheme" variant="secondary" icon={PlusCircle}>Add Scheme</Button>
+            <Button as={Link} size="sm" to="/analytics" variant="secondary" icon={BarChart3}>View Analytics</Button>
           </div>
         </Card>
       </div>
 
-      <Card title="Latest Document Verification" subtitle="Most recent OCR verification saved in this browser.">
+      <Card title="Latest Document Check" subtitle="Most recent document verification saved in this browser.">
         {latestVerification?.verification ? (
           <div className="profile-summary-grid">
             <span><strong>Document</strong>{latestVerification.document_name}</span>
             <span><strong>Status</strong><Badge variant={latestVerification.verification.overall_status}>{latestVerification.verification.overall_status.replaceAll("_", " ")}</Badge></span>
-            <span><strong>OCR confidence</strong>{latestVerification.verification.confidence_score}%</span>
+            <span><strong>Document confidence</strong>{latestVerification.verification.confidence_score}%</span>
           </div>
         ) : (
           <p className="muted-text">No document has been verified yet.</p>

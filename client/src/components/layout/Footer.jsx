@@ -7,8 +7,8 @@ function Footer() {
         <section>
           <h2>SchemeSetu</h2>
           <p>
-            SchemeSetu is a decision-support platform for discovering government schemes based on
-            citizen profile information.
+            SchemeSetu helps citizens discover relevant welfare schemes, check eligibility
+            conditions, and prepare required documents through a guided digital workflow.
           </p>
         </section>
 
@@ -34,18 +34,33 @@ function Footer() {
         </section>
 
         <section>
-          <h2>Disclaimer</h2>
+          <h2>Scheme Categories</h2>
+          <ul className="footer-list">
+            <li>Education and scholarships</li>
+            <li>Health and insurance</li>
+            <li>Agriculture and livelihood</li>
+            <li>Housing and social welfare</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Contact / Support</h2>
+          <p>Use the source link on each scheme page before final submission.</p>
+          <p>Support channel: SchemeSetu assistance desk</p>
+        </section>
+
+        <section>
+          <h2>Information Note</h2>
           <p>
-            SchemeSetu is a student project/demo. It does not replace official government
-            eligibility verification. Always confirm scheme details on official government portals
-            before applying.
+            Scheme information is presented for citizen assistance. Users should refer to the
+            respective scheme source link before final submission.
           </p>
         </section>
       </div>
 
-      <div className="footer-disclaimer">
-        <p>Built with MERN + FastAPI ML | SchemeSetu Project</p>
-        <span>2026 SchemeSetu</span>
+      <div className="footer-note">
+        <p>Scheme information is presented for citizen assistance. Review source information before final submission.</p>
+        <span>© 2026 SchemeSetu. All rights reserved.</span>
       </div>
     </footer>
   );

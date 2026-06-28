@@ -152,7 +152,7 @@ function AdminAddScheme() {
         <Card
           title="E. Extracted Rules"
           subtitle="Extract rules from eligibility text, then review or edit JSON before saving."
-          actions={<Button type="button" variant="secondary" onClick={handleExtractRules} disabled={extracting} icon={Wand2}>{extracting ? "Extracting..." : "Extract Rules"}</Button>}
+          actions={<Button type="button" variant="secondary" size="sm" onClick={handleExtractRules} disabled={extracting} icon={Wand2}>{extracting ? "Extracting..." : "Extract Rules"}</Button>}
         >
           <Textarea
             label="Extracted rules JSON"
@@ -172,7 +172,7 @@ function AdminAddScheme() {
           <Button type="submit" disabled={loading}>
             {loading ? "Saving..." : "Add Scheme"}
           </Button>
-          <Button type="button" variant="secondary" onClick={handleReset}>
+          <Button type="button" variant="secondary" size="sm" onClick={handleReset}>
             Reset
           </Button>
         </div>

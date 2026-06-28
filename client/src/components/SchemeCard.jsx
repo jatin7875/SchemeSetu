@@ -44,18 +44,18 @@ function SchemeCard({ scheme }) {
         <div className="score-panel">
           <div className="final-score">
             <strong>{scoreText(finalScore)}</strong>
-            <span>Final Score</span>
+            <span>Recommendation Score</span>
           </div>
-          <div className="score-progress" aria-label={`Final score ${finalScore}%`}>
-            <ProgressBar value={finalScore} label={`Final score ${finalScore}%`} />
+          <div className="score-progress" aria-label={`Recommendation score ${finalScore}%`}>
+            <ProgressBar value={finalScore} label={`Recommendation score ${finalScore}%`} />
           </div>
         </div>
 
         <div className="score-mini-grid">
-          <span>Rule <strong>{scoreText(ruleScore)}</strong></span>
-          <span>ML <strong>{scoreText(mlScore)}</strong></span>
-          <span>Semantic <strong>{scoreText(semanticScore)}</strong></span>
-          <span>Model <strong>{scoreText(modelScore)}</strong></span>
+          <span>Eligibility Match <strong>{scoreText(ruleScore)}</strong></span>
+          <span>Profile Relevance <strong>{scoreText(mlScore)}</strong></span>
+          <span>Scheme Similarity <strong>{scoreText(semanticScore)}</strong></span>
+          <span>Profile Fit <strong>{scoreText(modelScore)}</strong></span>
         </div>
       </div>
 
@@ -86,7 +86,7 @@ function SchemeCard({ scheme }) {
         </div>
       </div>
 
-      <Button as={Link} variant="secondary" to={`/scheme/${scheme.scheme_id}`}>
+      <Button as={Link} variant="secondary" size="sm" to={`/scheme/${scheme.scheme_id}`}>
         View Details
       </Button>
     </article>

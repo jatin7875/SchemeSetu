@@ -596,5 +596,5836 @@
         ]
       }
     ]
+  },
+  {
+    "id": "1782666693498-1hc02x",
+    "timestamp": "2026-06-28T17:11:33.498Z",
+    "citizen_profile": {
+      "age": 21,
+      "gender": "male",
+      "state": "Maharashtra",
+      "district": "bhandara",
+      "caste": "OBC",
+      "annual_income": null,
+      "occupation": "student",
+      "disability_status": "no",
+      "farmer_status": "no",
+      "bpl_status": "no",
+      "ration_card_type": "none",
+      "education_level": "post-matric"
+    },
+    "recommendations": [
+      {
+        "scheme_id": "pm-yasasvi-post-matric-obc-ebc-dnt",
+        "scheme_name": "PM-YASASVI: Post-Matric Scholarship for OBC, EBC and DNT Students",
+        "category": "Education, Scholarship, OBC, EBC, DNT",
+        "rule_score": 100,
+        "ml_score": null,
+        "final_score": 100,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Caste category matches eligibility",
+          "Scheme is available in user's state",
+          "Occupation matches student eligibility",
+          "Education level matches eligibility"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pmjjby",
+        "scheme_name": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+        "category": "Insurance, Life Cover",
+        "rule_score": 100,
+        "ml_score": null,
+        "final_score": 100,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pmsby",
+        "scheme_name": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+        "category": "Insurance, Accident Cover",
+        "rule_score": 100,
+        "ml_score": null,
+        "final_score": 100,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "post-matric-sc",
+        "scheme_name": "Post-Matric Scholarship for SC Students",
+        "category": "Education, Scholarship, Scheduled Caste",
+        "rule_score": 75,
+        "ml_score": null,
+        "final_score": 75,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state",
+          "Occupation matches student eligibility",
+          "Education level matches eligibility"
+        ],
+        "failed_conditions": [
+          "Caste category is not eligible"
+        ]
+      },
+      {
+        "scheme_id": "pm-sym",
+        "scheme_name": "Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM)",
+        "category": "Pension, Unorganised Workers",
+        "rule_score": 75,
+        "ml_score": null,
+        "final_score": 75,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Income is within allowed limit",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "apy",
+        "scheme_name": "Atal Pension Yojana (APY)",
+        "category": "Pension, Social Security",
+        "rule_score": 67,
+        "ml_score": null,
+        "final_score": 67,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "ab-pmjay",
+        "scheme_name": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)",
+        "category": "Health, Insurance, Hospitalization",
+        "rule_score": 50,
+        "ml_score": null,
+        "final_score": 50,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "mssc",
+        "scheme_name": "Mahila Samman Savings Certificate",
+        "category": "Savings, Women Welfare",
+        "rule_score": 50,
+        "ml_score": null,
+        "final_score": 50,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Gender does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-svanidhi",
+        "scheme_name": "PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi)",
+        "category": "Livelihood, Micro Credit, Urban",
+        "rule_score": 50,
+        "ml_score": null,
+        "final_score": 50,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-vishwakarma",
+        "scheme_name": "PM Vishwakarma",
+        "category": "Skill Development, Artisans, Credit",
+        "rule_score": 50,
+        "ml_score": null,
+        "final_score": 50,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pmay-g",
+        "scheme_name": "Pradhan Mantri Awas Yojana - Gramin (PMAY-G)",
+        "category": "Housing, Rural Development",
+        "rule_score": 50,
+        "ml_score": null,
+        "final_score": 50,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmay-u",
+        "scheme_name": "Pradhan Mantri Awas Yojana - Urban (PMAY-U)",
+        "category": "Housing, Urban Development",
+        "rule_score": 50,
+        "ml_score": null,
+        "final_score": 50,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmmy",
+        "scheme_name": "Pradhan Mantri Mudra Yojana (PMMY)",
+        "category": "Entrepreneurship, Credit, MSME",
+        "rule_score": 50,
+        "ml_score": null,
+        "final_score": 50,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pmuy",
+        "scheme_name": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+        "category": "Energy, LPG, Women Welfare",
+        "rule_score": 50,
+        "ml_score": null,
+        "final_score": 50,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Gender does not match eligibility",
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "scss",
+        "scheme_name": "Senior Citizens Savings Scheme (SCSS)",
+        "category": "Savings, Senior Citizens, Tax Benefit",
+        "rule_score": 50,
+        "ml_score": null,
+        "final_score": 50,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Age is not within eligible range"
+        ]
+      },
+      {
+        "scheme_id": "kcc",
+        "scheme_name": "Kisan Credit Card (KCC)",
+        "category": "Agriculture, Credit",
+        "rule_score": 33,
+        "ml_score": null,
+        "final_score": 33,
+        "status": "not_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not a farmer",
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-kisan",
+        "scheme_name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+        "category": "Agriculture, Income Support, DBT",
+        "rule_score": 33,
+        "ml_score": null,
+        "final_score": 33,
+        "status": "not_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not a farmer",
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "ssy",
+        "scheme_name": "Sukanya Samriddhi Yojana (SSY)",
+        "category": "Savings, Girl Child, Tax Benefit",
+        "rule_score": 33,
+        "ml_score": null,
+        "final_score": 33,
+        "status": "not_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Age is not within eligible range",
+          "Gender does not match eligibility"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1782666693531-olqp6r",
+    "timestamp": "2026-06-28T17:11:33.531Z",
+    "citizen_profile": {
+      "age": 21,
+      "gender": "male",
+      "state": "Maharashtra",
+      "district": "bhandara",
+      "caste": "OBC",
+      "annual_income": null,
+      "occupation": "student",
+      "disability_status": "no",
+      "farmer_status": "no",
+      "bpl_status": "no",
+      "ration_card_type": "none",
+      "education_level": "post-matric"
+    },
+    "recommendations": [
+      {
+        "scheme_id": "pm-yasasvi-post-matric-obc-ebc-dnt",
+        "scheme_name": "PM-YASASVI: Post-Matric Scholarship for OBC, EBC and DNT Students",
+        "category": "Education, Scholarship, OBC, EBC, DNT",
+        "rule_score": 100,
+        "ml_score": null,
+        "final_score": 100,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Caste category matches eligibility",
+          "Scheme is available in user's state",
+          "Occupation matches student eligibility",
+          "Education level matches eligibility"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pmjjby",
+        "scheme_name": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+        "category": "Insurance, Life Cover",
+        "rule_score": 100,
+        "ml_score": null,
+        "final_score": 100,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pmsby",
+        "scheme_name": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+        "category": "Insurance, Accident Cover",
+        "rule_score": 100,
+        "ml_score": null,
+        "final_score": 100,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "post-matric-sc",
+        "scheme_name": "Post-Matric Scholarship for SC Students",
+        "category": "Education, Scholarship, Scheduled Caste",
+        "rule_score": 75,
+        "ml_score": null,
+        "final_score": 75,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state",
+          "Occupation matches student eligibility",
+          "Education level matches eligibility"
+        ],
+        "failed_conditions": [
+          "Caste category is not eligible"
+        ]
+      },
+      {
+        "scheme_id": "pm-sym",
+        "scheme_name": "Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM)",
+        "category": "Pension, Unorganised Workers",
+        "rule_score": 75,
+        "ml_score": null,
+        "final_score": 75,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Income is within allowed limit",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "apy",
+        "scheme_name": "Atal Pension Yojana (APY)",
+        "category": "Pension, Social Security",
+        "rule_score": 67,
+        "ml_score": null,
+        "final_score": 67,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "ab-pmjay",
+        "scheme_name": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)",
+        "category": "Health, Insurance, Hospitalization",
+        "rule_score": 50,
+        "ml_score": null,
+        "final_score": 50,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "mssc",
+        "scheme_name": "Mahila Samman Savings Certificate",
+        "category": "Savings, Women Welfare",
+        "rule_score": 50,
+        "ml_score": null,
+        "final_score": 50,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Gender does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-svanidhi",
+        "scheme_name": "PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi)",
+        "category": "Livelihood, Micro Credit, Urban",
+        "rule_score": 50,
+        "ml_score": null,
+        "final_score": 50,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-vishwakarma",
+        "scheme_name": "PM Vishwakarma",
+        "category": "Skill Development, Artisans, Credit",
+        "rule_score": 50,
+        "ml_score": null,
+        "final_score": 50,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pmay-g",
+        "scheme_name": "Pradhan Mantri Awas Yojana - Gramin (PMAY-G)",
+        "category": "Housing, Rural Development",
+        "rule_score": 50,
+        "ml_score": null,
+        "final_score": 50,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmay-u",
+        "scheme_name": "Pradhan Mantri Awas Yojana - Urban (PMAY-U)",
+        "category": "Housing, Urban Development",
+        "rule_score": 50,
+        "ml_score": null,
+        "final_score": 50,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmmy",
+        "scheme_name": "Pradhan Mantri Mudra Yojana (PMMY)",
+        "category": "Entrepreneurship, Credit, MSME",
+        "rule_score": 50,
+        "ml_score": null,
+        "final_score": 50,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pmuy",
+        "scheme_name": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+        "category": "Energy, LPG, Women Welfare",
+        "rule_score": 50,
+        "ml_score": null,
+        "final_score": 50,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Gender does not match eligibility",
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "scss",
+        "scheme_name": "Senior Citizens Savings Scheme (SCSS)",
+        "category": "Savings, Senior Citizens, Tax Benefit",
+        "rule_score": 50,
+        "ml_score": null,
+        "final_score": 50,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Age is not within eligible range"
+        ]
+      },
+      {
+        "scheme_id": "kcc",
+        "scheme_name": "Kisan Credit Card (KCC)",
+        "category": "Agriculture, Credit",
+        "rule_score": 33,
+        "ml_score": null,
+        "final_score": 33,
+        "status": "not_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not a farmer",
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-kisan",
+        "scheme_name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+        "category": "Agriculture, Income Support, DBT",
+        "rule_score": 33,
+        "ml_score": null,
+        "final_score": 33,
+        "status": "not_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not a farmer",
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "ssy",
+        "scheme_name": "Sukanya Samriddhi Yojana (SSY)",
+        "category": "Savings, Girl Child, Tax Benefit",
+        "rule_score": 33,
+        "ml_score": null,
+        "final_score": 33,
+        "status": "not_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Age is not within eligible range",
+          "Gender does not match eligibility"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1782666764433-5px30e",
+    "timestamp": "2026-06-28T17:12:44.433Z",
+    "citizen_profile": {
+      "age": 21,
+      "gender": "male",
+      "state": "Maharashtra",
+      "district": "bhandara",
+      "caste": "OBC",
+      "annual_income": null,
+      "occupation": "student",
+      "disability_status": "no",
+      "farmer_status": "no",
+      "bpl_status": "no",
+      "ration_card_type": "none",
+      "education_level": "post-matric"
+    },
+    "recommendations": [
+      {
+        "scheme_id": "pm-yasasvi-post-matric-obc-ebc-dnt",
+        "scheme_name": "PM-YASASVI: Post-Matric Scholarship for OBC, EBC and DNT Students",
+        "category": "Education, Scholarship, OBC, EBC, DNT",
+        "rule_score": 100,
+        "ml_score": null,
+        "final_score": 100,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Caste category matches eligibility",
+          "Scheme is available in user's state",
+          "Occupation matches student eligibility",
+          "Education level matches eligibility"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pmjjby",
+        "scheme_name": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+        "category": "Insurance, Life Cover",
+        "rule_score": 100,
+        "ml_score": null,
+        "final_score": 100,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pmsby",
+        "scheme_name": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+        "category": "Insurance, Accident Cover",
+        "rule_score": 100,
+        "ml_score": null,
+        "final_score": 100,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "post-matric-sc",
+        "scheme_name": "Post-Matric Scholarship for SC Students",
+        "category": "Education, Scholarship, Scheduled Caste",
+        "rule_score": 75,
+        "ml_score": null,
+        "final_score": 75,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state",
+          "Occupation matches student eligibility",
+          "Education level matches eligibility"
+        ],
+        "failed_conditions": [
+          "Caste category is not eligible"
+        ]
+      },
+      {
+        "scheme_id": "pm-sym",
+        "scheme_name": "Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM)",
+        "category": "Pension, Unorganised Workers",
+        "rule_score": 75,
+        "ml_score": null,
+        "final_score": 75,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Income is within allowed limit",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "apy",
+        "scheme_name": "Atal Pension Yojana (APY)",
+        "category": "Pension, Social Security",
+        "rule_score": 67,
+        "ml_score": null,
+        "final_score": 67,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "ab-pmjay",
+        "scheme_name": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)",
+        "category": "Health, Insurance, Hospitalization",
+        "rule_score": 50,
+        "ml_score": null,
+        "final_score": 50,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "mssc",
+        "scheme_name": "Mahila Samman Savings Certificate",
+        "category": "Savings, Women Welfare",
+        "rule_score": 50,
+        "ml_score": null,
+        "final_score": 50,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Gender does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-svanidhi",
+        "scheme_name": "PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi)",
+        "category": "Livelihood, Micro Credit, Urban",
+        "rule_score": 50,
+        "ml_score": null,
+        "final_score": 50,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-vishwakarma",
+        "scheme_name": "PM Vishwakarma",
+        "category": "Skill Development, Artisans, Credit",
+        "rule_score": 50,
+        "ml_score": null,
+        "final_score": 50,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pmay-g",
+        "scheme_name": "Pradhan Mantri Awas Yojana - Gramin (PMAY-G)",
+        "category": "Housing, Rural Development",
+        "rule_score": 50,
+        "ml_score": null,
+        "final_score": 50,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmay-u",
+        "scheme_name": "Pradhan Mantri Awas Yojana - Urban (PMAY-U)",
+        "category": "Housing, Urban Development",
+        "rule_score": 50,
+        "ml_score": null,
+        "final_score": 50,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmmy",
+        "scheme_name": "Pradhan Mantri Mudra Yojana (PMMY)",
+        "category": "Entrepreneurship, Credit, MSME",
+        "rule_score": 50,
+        "ml_score": null,
+        "final_score": 50,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pmuy",
+        "scheme_name": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+        "category": "Energy, LPG, Women Welfare",
+        "rule_score": 50,
+        "ml_score": null,
+        "final_score": 50,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Gender does not match eligibility",
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "scss",
+        "scheme_name": "Senior Citizens Savings Scheme (SCSS)",
+        "category": "Savings, Senior Citizens, Tax Benefit",
+        "rule_score": 50,
+        "ml_score": null,
+        "final_score": 50,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Age is not within eligible range"
+        ]
+      },
+      {
+        "scheme_id": "kcc",
+        "scheme_name": "Kisan Credit Card (KCC)",
+        "category": "Agriculture, Credit",
+        "rule_score": 33,
+        "ml_score": null,
+        "final_score": 33,
+        "status": "not_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not a farmer",
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-kisan",
+        "scheme_name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+        "category": "Agriculture, Income Support, DBT",
+        "rule_score": 33,
+        "ml_score": null,
+        "final_score": 33,
+        "status": "not_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not a farmer",
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "ssy",
+        "scheme_name": "Sukanya Samriddhi Yojana (SSY)",
+        "category": "Savings, Girl Child, Tax Benefit",
+        "rule_score": 33,
+        "ml_score": null,
+        "final_score": 33,
+        "status": "not_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Age is not within eligible range",
+          "Gender does not match eligibility"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1782666883741-vpmw8h",
+    "timestamp": "2026-06-28T17:14:43.741Z",
+    "citizen_profile": {
+      "age": 21,
+      "gender": "male",
+      "state": "Maharashtra",
+      "district": "bhandara",
+      "caste": "OBC",
+      "annual_income": null,
+      "occupation": "student",
+      "disability_status": "no",
+      "farmer_status": "no",
+      "bpl_status": "no",
+      "ration_card_type": "none",
+      "education_level": "post-matric"
+    },
+    "recommendations": [
+      {
+        "scheme_id": "pm-yasasvi-post-matric-obc-ebc-dnt",
+        "scheme_name": "PM-YASASVI: Post-Matric Scholarship for OBC, EBC and DNT Students",
+        "category": "Education, Scholarship, OBC, EBC, DNT",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Caste category matches eligibility",
+          "Scheme is available in user's state",
+          "Occupation matches student eligibility",
+          "Education level matches eligibility"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pmjjby",
+        "scheme_name": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+        "category": "Insurance, Life Cover",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pmsby",
+        "scheme_name": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+        "category": "Insurance, Accident Cover",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pm-sym",
+        "scheme_name": "Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM)",
+        "category": "Pension, Unorganised Workers",
+        "rule_score": 75,
+        "ml_score": 88,
+        "final_score": 80,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Income is within allowed limit",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "post-matric-sc",
+        "scheme_name": "Post-Matric Scholarship for SC Students",
+        "category": "Education, Scholarship, Scheduled Caste",
+        "rule_score": 75,
+        "ml_score": 84,
+        "final_score": 79,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state",
+          "Occupation matches student eligibility",
+          "Education level matches eligibility"
+        ],
+        "failed_conditions": [
+          "Caste category is not eligible"
+        ]
+      },
+      {
+        "scheme_id": "apy",
+        "scheme_name": "Atal Pension Yojana (APY)",
+        "category": "Pension, Social Security",
+        "rule_score": 67,
+        "ml_score": 83,
+        "final_score": 73,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-vishwakarma",
+        "scheme_name": "PM Vishwakarma",
+        "category": "Skill Development, Artisans, Credit",
+        "rule_score": 50,
+        "ml_score": 89,
+        "final_score": 66,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "ab-pmjay",
+        "scheme_name": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)",
+        "category": "Health, Insurance, Hospitalization",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmay-g",
+        "scheme_name": "Pradhan Mantri Awas Yojana - Gramin (PMAY-G)",
+        "category": "Housing, Rural Development",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmay-u",
+        "scheme_name": "Pradhan Mantri Awas Yojana - Urban (PMAY-U)",
+        "category": "Housing, Urban Development",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmmy",
+        "scheme_name": "Pradhan Mantri Mudra Yojana (PMMY)",
+        "category": "Entrepreneurship, Credit, MSME",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pmuy",
+        "scheme_name": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+        "category": "Energy, LPG, Women Welfare",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Gender does not match eligibility",
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "mssc",
+        "scheme_name": "Mahila Samman Savings Certificate",
+        "category": "Savings, Women Welfare",
+        "rule_score": 50,
+        "ml_score": 82,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Gender does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-svanidhi",
+        "scheme_name": "PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi)",
+        "category": "Livelihood, Micro Credit, Urban",
+        "rule_score": 50,
+        "ml_score": 83,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "scss",
+        "scheme_name": "Senior Citizens Savings Scheme (SCSS)",
+        "category": "Savings, Senior Citizens, Tax Benefit",
+        "rule_score": 50,
+        "ml_score": 82,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Age is not within eligible range"
+        ]
+      },
+      {
+        "scheme_id": "ssy",
+        "scheme_name": "Sukanya Samriddhi Yojana (SSY)",
+        "category": "Savings, Girl Child, Tax Benefit",
+        "rule_score": 33,
+        "ml_score": 83,
+        "final_score": 53,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Age is not within eligible range",
+          "Gender does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-kisan",
+        "scheme_name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+        "category": "Agriculture, Income Support, DBT",
+        "rule_score": 33,
+        "ml_score": 38,
+        "final_score": 35,
+        "status": "not_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not a farmer",
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "kcc",
+        "scheme_name": "Kisan Credit Card (KCC)",
+        "category": "Agriculture, Credit",
+        "rule_score": 33,
+        "ml_score": 30,
+        "final_score": 32,
+        "status": "not_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not a farmer",
+          "Occupation does not match eligibility"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1782666883825-96afwf",
+    "timestamp": "2026-06-28T17:14:43.825Z",
+    "citizen_profile": {
+      "age": 21,
+      "gender": "male",
+      "state": "Maharashtra",
+      "district": "bhandara",
+      "caste": "OBC",
+      "annual_income": null,
+      "occupation": "student",
+      "disability_status": "no",
+      "farmer_status": "no",
+      "bpl_status": "no",
+      "ration_card_type": "none",
+      "education_level": "post-matric"
+    },
+    "recommendations": [
+      {
+        "scheme_id": "pm-yasasvi-post-matric-obc-ebc-dnt",
+        "scheme_name": "PM-YASASVI: Post-Matric Scholarship for OBC, EBC and DNT Students",
+        "category": "Education, Scholarship, OBC, EBC, DNT",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Caste category matches eligibility",
+          "Scheme is available in user's state",
+          "Occupation matches student eligibility",
+          "Education level matches eligibility"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pmjjby",
+        "scheme_name": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+        "category": "Insurance, Life Cover",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pmsby",
+        "scheme_name": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+        "category": "Insurance, Accident Cover",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pm-sym",
+        "scheme_name": "Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM)",
+        "category": "Pension, Unorganised Workers",
+        "rule_score": 75,
+        "ml_score": 88,
+        "final_score": 80,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Income is within allowed limit",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "post-matric-sc",
+        "scheme_name": "Post-Matric Scholarship for SC Students",
+        "category": "Education, Scholarship, Scheduled Caste",
+        "rule_score": 75,
+        "ml_score": 84,
+        "final_score": 79,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state",
+          "Occupation matches student eligibility",
+          "Education level matches eligibility"
+        ],
+        "failed_conditions": [
+          "Caste category is not eligible"
+        ]
+      },
+      {
+        "scheme_id": "apy",
+        "scheme_name": "Atal Pension Yojana (APY)",
+        "category": "Pension, Social Security",
+        "rule_score": 67,
+        "ml_score": 83,
+        "final_score": 73,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-vishwakarma",
+        "scheme_name": "PM Vishwakarma",
+        "category": "Skill Development, Artisans, Credit",
+        "rule_score": 50,
+        "ml_score": 89,
+        "final_score": 66,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "ab-pmjay",
+        "scheme_name": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)",
+        "category": "Health, Insurance, Hospitalization",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmay-g",
+        "scheme_name": "Pradhan Mantri Awas Yojana - Gramin (PMAY-G)",
+        "category": "Housing, Rural Development",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmay-u",
+        "scheme_name": "Pradhan Mantri Awas Yojana - Urban (PMAY-U)",
+        "category": "Housing, Urban Development",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmmy",
+        "scheme_name": "Pradhan Mantri Mudra Yojana (PMMY)",
+        "category": "Entrepreneurship, Credit, MSME",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pmuy",
+        "scheme_name": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+        "category": "Energy, LPG, Women Welfare",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Gender does not match eligibility",
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "mssc",
+        "scheme_name": "Mahila Samman Savings Certificate",
+        "category": "Savings, Women Welfare",
+        "rule_score": 50,
+        "ml_score": 82,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Gender does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-svanidhi",
+        "scheme_name": "PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi)",
+        "category": "Livelihood, Micro Credit, Urban",
+        "rule_score": 50,
+        "ml_score": 83,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "scss",
+        "scheme_name": "Senior Citizens Savings Scheme (SCSS)",
+        "category": "Savings, Senior Citizens, Tax Benefit",
+        "rule_score": 50,
+        "ml_score": 82,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Age is not within eligible range"
+        ]
+      },
+      {
+        "scheme_id": "ssy",
+        "scheme_name": "Sukanya Samriddhi Yojana (SSY)",
+        "category": "Savings, Girl Child, Tax Benefit",
+        "rule_score": 33,
+        "ml_score": 83,
+        "final_score": 53,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Age is not within eligible range",
+          "Gender does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-kisan",
+        "scheme_name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+        "category": "Agriculture, Income Support, DBT",
+        "rule_score": 33,
+        "ml_score": 38,
+        "final_score": 35,
+        "status": "not_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not a farmer",
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "kcc",
+        "scheme_name": "Kisan Credit Card (KCC)",
+        "category": "Agriculture, Credit",
+        "rule_score": 33,
+        "ml_score": 30,
+        "final_score": 32,
+        "status": "not_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not a farmer",
+          "Occupation does not match eligibility"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1782666883848-9nhf5o",
+    "timestamp": "2026-06-28T17:14:43.848Z",
+    "citizen_profile": {
+      "age": 21,
+      "gender": "male",
+      "state": "Maharashtra",
+      "district": "bhandara",
+      "caste": "OBC",
+      "annual_income": null,
+      "occupation": "student",
+      "disability_status": "no",
+      "farmer_status": "no",
+      "bpl_status": "no",
+      "ration_card_type": "none",
+      "education_level": "post-matric"
+    },
+    "recommendations": [
+      {
+        "scheme_id": "pm-yasasvi-post-matric-obc-ebc-dnt",
+        "scheme_name": "PM-YASASVI: Post-Matric Scholarship for OBC, EBC and DNT Students",
+        "category": "Education, Scholarship, OBC, EBC, DNT",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Caste category matches eligibility",
+          "Scheme is available in user's state",
+          "Occupation matches student eligibility",
+          "Education level matches eligibility"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pmjjby",
+        "scheme_name": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+        "category": "Insurance, Life Cover",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pmsby",
+        "scheme_name": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+        "category": "Insurance, Accident Cover",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pm-sym",
+        "scheme_name": "Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM)",
+        "category": "Pension, Unorganised Workers",
+        "rule_score": 75,
+        "ml_score": 88,
+        "final_score": 80,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Income is within allowed limit",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "post-matric-sc",
+        "scheme_name": "Post-Matric Scholarship for SC Students",
+        "category": "Education, Scholarship, Scheduled Caste",
+        "rule_score": 75,
+        "ml_score": 84,
+        "final_score": 79,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state",
+          "Occupation matches student eligibility",
+          "Education level matches eligibility"
+        ],
+        "failed_conditions": [
+          "Caste category is not eligible"
+        ]
+      },
+      {
+        "scheme_id": "apy",
+        "scheme_name": "Atal Pension Yojana (APY)",
+        "category": "Pension, Social Security",
+        "rule_score": 67,
+        "ml_score": 83,
+        "final_score": 73,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-vishwakarma",
+        "scheme_name": "PM Vishwakarma",
+        "category": "Skill Development, Artisans, Credit",
+        "rule_score": 50,
+        "ml_score": 89,
+        "final_score": 66,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "ab-pmjay",
+        "scheme_name": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)",
+        "category": "Health, Insurance, Hospitalization",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmay-g",
+        "scheme_name": "Pradhan Mantri Awas Yojana - Gramin (PMAY-G)",
+        "category": "Housing, Rural Development",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmay-u",
+        "scheme_name": "Pradhan Mantri Awas Yojana - Urban (PMAY-U)",
+        "category": "Housing, Urban Development",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmmy",
+        "scheme_name": "Pradhan Mantri Mudra Yojana (PMMY)",
+        "category": "Entrepreneurship, Credit, MSME",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pmuy",
+        "scheme_name": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+        "category": "Energy, LPG, Women Welfare",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Gender does not match eligibility",
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "mssc",
+        "scheme_name": "Mahila Samman Savings Certificate",
+        "category": "Savings, Women Welfare",
+        "rule_score": 50,
+        "ml_score": 82,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Gender does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-svanidhi",
+        "scheme_name": "PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi)",
+        "category": "Livelihood, Micro Credit, Urban",
+        "rule_score": 50,
+        "ml_score": 83,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "scss",
+        "scheme_name": "Senior Citizens Savings Scheme (SCSS)",
+        "category": "Savings, Senior Citizens, Tax Benefit",
+        "rule_score": 50,
+        "ml_score": 82,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Age is not within eligible range"
+        ]
+      },
+      {
+        "scheme_id": "ssy",
+        "scheme_name": "Sukanya Samriddhi Yojana (SSY)",
+        "category": "Savings, Girl Child, Tax Benefit",
+        "rule_score": 33,
+        "ml_score": 83,
+        "final_score": 53,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Age is not within eligible range",
+          "Gender does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-kisan",
+        "scheme_name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+        "category": "Agriculture, Income Support, DBT",
+        "rule_score": 33,
+        "ml_score": 38,
+        "final_score": 35,
+        "status": "not_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not a farmer",
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "kcc",
+        "scheme_name": "Kisan Credit Card (KCC)",
+        "category": "Agriculture, Credit",
+        "rule_score": 33,
+        "ml_score": 30,
+        "final_score": 32,
+        "status": "not_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not a farmer",
+          "Occupation does not match eligibility"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1782666883858-a8c48s",
+    "timestamp": "2026-06-28T17:14:43.858Z",
+    "citizen_profile": {
+      "age": 21,
+      "gender": "male",
+      "state": "Maharashtra",
+      "district": "Nagpur",
+      "caste": "OBC",
+      "annual_income": 120000,
+      "occupation": "student",
+      "disability_status": "no",
+      "farmer_status": "no",
+      "bpl_status": "yes",
+      "ration_card_type": "yellow",
+      "education_level": "undergraduate"
+    },
+    "recommendations": [
+      {
+        "scheme_id": "ab-pmjay",
+        "scheme_name": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)",
+        "category": "Health, Insurance, Hospitalization",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state",
+          "User has BPL status"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pm-yasasvi-post-matric-obc-ebc-dnt",
+        "scheme_name": "PM-YASASVI: Post-Matric Scholarship for OBC, EBC and DNT Students",
+        "category": "Education, Scholarship, OBC, EBC, DNT",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Caste category matches eligibility",
+          "Scheme is available in user's state",
+          "Occupation matches student eligibility",
+          "Education level matches eligibility"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pmay-g",
+        "scheme_name": "Pradhan Mantri Awas Yojana - Gramin (PMAY-G)",
+        "category": "Housing, Rural Development",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state",
+          "User has BPL status"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pmay-u",
+        "scheme_name": "Pradhan Mantri Awas Yojana - Urban (PMAY-U)",
+        "category": "Housing, Urban Development",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state",
+          "User has BPL status"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pmjjby",
+        "scheme_name": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+        "category": "Insurance, Life Cover",
+        "rule_score": 100,
+        "ml_score": 85,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pmsby",
+        "scheme_name": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+        "category": "Insurance, Accident Cover",
+        "rule_score": 100,
+        "ml_score": 85,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pm-sym",
+        "scheme_name": "Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM)",
+        "category": "Pension, Unorganised Workers",
+        "rule_score": 75,
+        "ml_score": 88,
+        "final_score": 80,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Income is within allowed limit",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "post-matric-sc",
+        "scheme_name": "Post-Matric Scholarship for SC Students",
+        "category": "Education, Scholarship, Scheduled Caste",
+        "rule_score": 75,
+        "ml_score": 84,
+        "final_score": 79,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state",
+          "Occupation matches student eligibility",
+          "Education level matches eligibility"
+        ],
+        "failed_conditions": [
+          "Caste category is not eligible"
+        ]
+      },
+      {
+        "scheme_id": "pmuy",
+        "scheme_name": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+        "category": "Energy, LPG, Women Welfare",
+        "rule_score": 75,
+        "ml_score": 85,
+        "final_score": 79,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state",
+          "User has BPL status"
+        ],
+        "failed_conditions": [
+          "Gender does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "apy",
+        "scheme_name": "Atal Pension Yojana (APY)",
+        "category": "Pension, Social Security",
+        "rule_score": 67,
+        "ml_score": 84,
+        "final_score": 74,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-vishwakarma",
+        "scheme_name": "PM Vishwakarma",
+        "category": "Skill Development, Artisans, Credit",
+        "rule_score": 50,
+        "ml_score": 89,
+        "final_score": 66,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pmmy",
+        "scheme_name": "Pradhan Mantri Mudra Yojana (PMMY)",
+        "category": "Entrepreneurship, Credit, MSME",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "mssc",
+        "scheme_name": "Mahila Samman Savings Certificate",
+        "category": "Savings, Women Welfare",
+        "rule_score": 50,
+        "ml_score": 82,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Gender does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-svanidhi",
+        "scheme_name": "PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi)",
+        "category": "Livelihood, Micro Credit, Urban",
+        "rule_score": 50,
+        "ml_score": 83,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "scss",
+        "scheme_name": "Senior Citizens Savings Scheme (SCSS)",
+        "category": "Savings, Senior Citizens, Tax Benefit",
+        "rule_score": 50,
+        "ml_score": 82,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Age is not within eligible range"
+        ]
+      },
+      {
+        "scheme_id": "ssy",
+        "scheme_name": "Sukanya Samriddhi Yojana (SSY)",
+        "category": "Savings, Girl Child, Tax Benefit",
+        "rule_score": 33,
+        "ml_score": 83,
+        "final_score": 53,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Age is not within eligible range",
+          "Gender does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-kisan",
+        "scheme_name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+        "category": "Agriculture, Income Support, DBT",
+        "rule_score": 33,
+        "ml_score": 38,
+        "final_score": 35,
+        "status": "not_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not a farmer",
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "kcc",
+        "scheme_name": "Kisan Credit Card (KCC)",
+        "category": "Agriculture, Credit",
+        "rule_score": 33,
+        "ml_score": 30,
+        "final_score": 32,
+        "status": "not_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not a farmer",
+          "Occupation does not match eligibility"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1782667045651-4o895o",
+    "timestamp": "2026-06-28T17:17:25.651Z",
+    "citizen_profile": {
+      "age": 21,
+      "gender": "male",
+      "state": "Maharashtra",
+      "district": "Nagpur",
+      "caste": "OBC",
+      "annual_income": 120000,
+      "occupation": "student",
+      "disability_status": "no",
+      "farmer_status": "no",
+      "bpl_status": "yes",
+      "ration_card_type": "yellow",
+      "education_level": "undergraduate"
+    },
+    "recommendations": [
+      {
+        "scheme_id": "ab-pmjay",
+        "scheme_name": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)",
+        "category": "Health, Insurance, Hospitalization",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state",
+          "User has BPL status"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pm-yasasvi-post-matric-obc-ebc-dnt",
+        "scheme_name": "PM-YASASVI: Post-Matric Scholarship for OBC, EBC and DNT Students",
+        "category": "Education, Scholarship, OBC, EBC, DNT",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Caste category matches eligibility",
+          "Scheme is available in user's state",
+          "Occupation matches student eligibility",
+          "Education level matches eligibility"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pmay-g",
+        "scheme_name": "Pradhan Mantri Awas Yojana - Gramin (PMAY-G)",
+        "category": "Housing, Rural Development",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state",
+          "User has BPL status"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pmay-u",
+        "scheme_name": "Pradhan Mantri Awas Yojana - Urban (PMAY-U)",
+        "category": "Housing, Urban Development",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state",
+          "User has BPL status"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pmjjby",
+        "scheme_name": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+        "category": "Insurance, Life Cover",
+        "rule_score": 100,
+        "ml_score": 85,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pmsby",
+        "scheme_name": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+        "category": "Insurance, Accident Cover",
+        "rule_score": 100,
+        "ml_score": 85,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pm-sym",
+        "scheme_name": "Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM)",
+        "category": "Pension, Unorganised Workers",
+        "rule_score": 75,
+        "ml_score": 88,
+        "final_score": 80,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Income is within allowed limit",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "post-matric-sc",
+        "scheme_name": "Post-Matric Scholarship for SC Students",
+        "category": "Education, Scholarship, Scheduled Caste",
+        "rule_score": 75,
+        "ml_score": 84,
+        "final_score": 79,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state",
+          "Occupation matches student eligibility",
+          "Education level matches eligibility"
+        ],
+        "failed_conditions": [
+          "Caste category is not eligible"
+        ]
+      },
+      {
+        "scheme_id": "pmuy",
+        "scheme_name": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+        "category": "Energy, LPG, Women Welfare",
+        "rule_score": 75,
+        "ml_score": 85,
+        "final_score": 79,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state",
+          "User has BPL status"
+        ],
+        "failed_conditions": [
+          "Gender does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "apy",
+        "scheme_name": "Atal Pension Yojana (APY)",
+        "category": "Pension, Social Security",
+        "rule_score": 67,
+        "ml_score": 84,
+        "final_score": 74,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-vishwakarma",
+        "scheme_name": "PM Vishwakarma",
+        "category": "Skill Development, Artisans, Credit",
+        "rule_score": 50,
+        "ml_score": 89,
+        "final_score": 66,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pmmy",
+        "scheme_name": "Pradhan Mantri Mudra Yojana (PMMY)",
+        "category": "Entrepreneurship, Credit, MSME",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "temp-test-education-scheme-1782666883881-1782666883885",
+        "scheme_name": "Test Education Scheme 1782666883881",
+        "category": "Education",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Student occupation matches education scheme keywords"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "mssc",
+        "scheme_name": "Mahila Samman Savings Certificate",
+        "category": "Savings, Women Welfare",
+        "rule_score": 50,
+        "ml_score": 82,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Gender does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-svanidhi",
+        "scheme_name": "PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi)",
+        "category": "Livelihood, Micro Credit, Urban",
+        "rule_score": 50,
+        "ml_score": 83,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "scss",
+        "scheme_name": "Senior Citizens Savings Scheme (SCSS)",
+        "category": "Savings, Senior Citizens, Tax Benefit",
+        "rule_score": 50,
+        "ml_score": 82,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Age is not within eligible range"
+        ]
+      },
+      {
+        "scheme_id": "ssy",
+        "scheme_name": "Sukanya Samriddhi Yojana (SSY)",
+        "category": "Savings, Girl Child, Tax Benefit",
+        "rule_score": 33,
+        "ml_score": 83,
+        "final_score": 53,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Age is not within eligible range",
+          "Gender does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-kisan",
+        "scheme_name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+        "category": "Agriculture, Income Support, DBT",
+        "rule_score": 33,
+        "ml_score": 38,
+        "final_score": 35,
+        "status": "not_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not a farmer",
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "kcc",
+        "scheme_name": "Kisan Credit Card (KCC)",
+        "category": "Agriculture, Credit",
+        "rule_score": 33,
+        "ml_score": 30,
+        "final_score": 32,
+        "status": "not_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not a farmer",
+          "Occupation does not match eligibility"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1782667193921-23za4w",
+    "timestamp": "2026-06-28T17:19:53.921Z",
+    "citizen_profile": {
+      "age": 21,
+      "gender": "male",
+      "state": "Maharashtra",
+      "district": "bhandara",
+      "caste": "OBC",
+      "annual_income": null,
+      "occupation": "student",
+      "disability_status": "no",
+      "farmer_status": "no",
+      "bpl_status": "no",
+      "ration_card_type": "none",
+      "education_level": "post-matric"
+    },
+    "recommendations": [
+      {
+        "scheme_id": "pm-yasasvi-post-matric-obc-ebc-dnt",
+        "scheme_name": "PM-YASASVI: Post-Matric Scholarship for OBC, EBC and DNT Students",
+        "category": "Education, Scholarship, OBC, EBC, DNT",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Caste category matches eligibility",
+          "Scheme is available in user's state",
+          "Occupation matches student eligibility",
+          "Education level matches eligibility"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pmjjby",
+        "scheme_name": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+        "category": "Insurance, Life Cover",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pmsby",
+        "scheme_name": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+        "category": "Insurance, Accident Cover",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "temp-test-education-scheme-1782666883881-1782666883885",
+        "scheme_name": "Test Education Scheme 1782666883881",
+        "category": "Education",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Student occupation matches education scheme keywords"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pm-sym",
+        "scheme_name": "Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM)",
+        "category": "Pension, Unorganised Workers",
+        "rule_score": 75,
+        "ml_score": 88,
+        "final_score": 80,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Income is within allowed limit",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "post-matric-sc",
+        "scheme_name": "Post-Matric Scholarship for SC Students",
+        "category": "Education, Scholarship, Scheduled Caste",
+        "rule_score": 75,
+        "ml_score": 84,
+        "final_score": 79,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state",
+          "Occupation matches student eligibility",
+          "Education level matches eligibility"
+        ],
+        "failed_conditions": [
+          "Caste category is not eligible"
+        ]
+      },
+      {
+        "scheme_id": "apy",
+        "scheme_name": "Atal Pension Yojana (APY)",
+        "category": "Pension, Social Security",
+        "rule_score": 67,
+        "ml_score": 83,
+        "final_score": 73,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-vishwakarma",
+        "scheme_name": "PM Vishwakarma",
+        "category": "Skill Development, Artisans, Credit",
+        "rule_score": 50,
+        "ml_score": 89,
+        "final_score": 66,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "ab-pmjay",
+        "scheme_name": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)",
+        "category": "Health, Insurance, Hospitalization",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmay-g",
+        "scheme_name": "Pradhan Mantri Awas Yojana - Gramin (PMAY-G)",
+        "category": "Housing, Rural Development",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmay-u",
+        "scheme_name": "Pradhan Mantri Awas Yojana - Urban (PMAY-U)",
+        "category": "Housing, Urban Development",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmmy",
+        "scheme_name": "Pradhan Mantri Mudra Yojana (PMMY)",
+        "category": "Entrepreneurship, Credit, MSME",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pmuy",
+        "scheme_name": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+        "category": "Energy, LPG, Women Welfare",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Gender does not match eligibility",
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "mssc",
+        "scheme_name": "Mahila Samman Savings Certificate",
+        "category": "Savings, Women Welfare",
+        "rule_score": 50,
+        "ml_score": 82,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Gender does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-svanidhi",
+        "scheme_name": "PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi)",
+        "category": "Livelihood, Micro Credit, Urban",
+        "rule_score": 50,
+        "ml_score": 83,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "scss",
+        "scheme_name": "Senior Citizens Savings Scheme (SCSS)",
+        "category": "Savings, Senior Citizens, Tax Benefit",
+        "rule_score": 50,
+        "ml_score": 82,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Age is not within eligible range"
+        ]
+      },
+      {
+        "scheme_id": "ssy",
+        "scheme_name": "Sukanya Samriddhi Yojana (SSY)",
+        "category": "Savings, Girl Child, Tax Benefit",
+        "rule_score": 33,
+        "ml_score": 83,
+        "final_score": 53,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Age is not within eligible range",
+          "Gender does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-kisan",
+        "scheme_name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+        "category": "Agriculture, Income Support, DBT",
+        "rule_score": 33,
+        "ml_score": 38,
+        "final_score": 35,
+        "status": "not_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not a farmer",
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "kcc",
+        "scheme_name": "Kisan Credit Card (KCC)",
+        "category": "Agriculture, Credit",
+        "rule_score": 33,
+        "ml_score": 30,
+        "final_score": 32,
+        "status": "not_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not a farmer",
+          "Occupation does not match eligibility"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1782667239471-9cv2g7",
+    "timestamp": "2026-06-28T17:20:39.471Z",
+    "citizen_profile": {
+      "age": 21,
+      "gender": "male",
+      "state": "Maharashtra",
+      "district": "bhandara",
+      "caste": "OBC",
+      "annual_income": null,
+      "occupation": "student",
+      "disability_status": "no",
+      "farmer_status": "no",
+      "bpl_status": "no",
+      "ration_card_type": "none",
+      "education_level": "post-matric"
+    },
+    "recommendations": [
+      {
+        "scheme_id": "pm-yasasvi-post-matric-obc-ebc-dnt",
+        "scheme_name": "PM-YASASVI: Post-Matric Scholarship for OBC, EBC and DNT Students",
+        "category": "Education, Scholarship, OBC, EBC, DNT",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Caste category matches eligibility",
+          "Scheme is available in user's state",
+          "Occupation matches student eligibility",
+          "Education level matches eligibility"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pmjjby",
+        "scheme_name": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+        "category": "Insurance, Life Cover",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pmsby",
+        "scheme_name": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+        "category": "Insurance, Accident Cover",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "temp-test-education-scheme-1782666883881-1782666883885",
+        "scheme_name": "Test Education Scheme 1782666883881",
+        "category": "Education",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Student occupation matches education scheme keywords"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pm-sym",
+        "scheme_name": "Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM)",
+        "category": "Pension, Unorganised Workers",
+        "rule_score": 75,
+        "ml_score": 88,
+        "final_score": 80,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Income is within allowed limit",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "post-matric-sc",
+        "scheme_name": "Post-Matric Scholarship for SC Students",
+        "category": "Education, Scholarship, Scheduled Caste",
+        "rule_score": 75,
+        "ml_score": 84,
+        "final_score": 79,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state",
+          "Occupation matches student eligibility",
+          "Education level matches eligibility"
+        ],
+        "failed_conditions": [
+          "Caste category is not eligible"
+        ]
+      },
+      {
+        "scheme_id": "apy",
+        "scheme_name": "Atal Pension Yojana (APY)",
+        "category": "Pension, Social Security",
+        "rule_score": 67,
+        "ml_score": 83,
+        "final_score": 73,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-vishwakarma",
+        "scheme_name": "PM Vishwakarma",
+        "category": "Skill Development, Artisans, Credit",
+        "rule_score": 50,
+        "ml_score": 89,
+        "final_score": 66,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "ab-pmjay",
+        "scheme_name": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)",
+        "category": "Health, Insurance, Hospitalization",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmay-g",
+        "scheme_name": "Pradhan Mantri Awas Yojana - Gramin (PMAY-G)",
+        "category": "Housing, Rural Development",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmay-u",
+        "scheme_name": "Pradhan Mantri Awas Yojana - Urban (PMAY-U)",
+        "category": "Housing, Urban Development",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmmy",
+        "scheme_name": "Pradhan Mantri Mudra Yojana (PMMY)",
+        "category": "Entrepreneurship, Credit, MSME",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pmuy",
+        "scheme_name": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+        "category": "Energy, LPG, Women Welfare",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Gender does not match eligibility",
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "mssc",
+        "scheme_name": "Mahila Samman Savings Certificate",
+        "category": "Savings, Women Welfare",
+        "rule_score": 50,
+        "ml_score": 82,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Gender does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-svanidhi",
+        "scheme_name": "PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi)",
+        "category": "Livelihood, Micro Credit, Urban",
+        "rule_score": 50,
+        "ml_score": 83,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "scss",
+        "scheme_name": "Senior Citizens Savings Scheme (SCSS)",
+        "category": "Savings, Senior Citizens, Tax Benefit",
+        "rule_score": 50,
+        "ml_score": 82,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Age is not within eligible range"
+        ]
+      },
+      {
+        "scheme_id": "ssy",
+        "scheme_name": "Sukanya Samriddhi Yojana (SSY)",
+        "category": "Savings, Girl Child, Tax Benefit",
+        "rule_score": 33,
+        "ml_score": 83,
+        "final_score": 53,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Age is not within eligible range",
+          "Gender does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-kisan",
+        "scheme_name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+        "category": "Agriculture, Income Support, DBT",
+        "rule_score": 33,
+        "ml_score": 38,
+        "final_score": 35,
+        "status": "not_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not a farmer",
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "kcc",
+        "scheme_name": "Kisan Credit Card (KCC)",
+        "category": "Agriculture, Credit",
+        "rule_score": 33,
+        "ml_score": 30,
+        "final_score": 32,
+        "status": "not_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not a farmer",
+          "Occupation does not match eligibility"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1782667239499-icwff3",
+    "timestamp": "2026-06-28T17:20:39.499Z",
+    "citizen_profile": {
+      "age": 21,
+      "gender": "male",
+      "state": "Maharashtra",
+      "district": "bhandara",
+      "caste": "OBC",
+      "annual_income": null,
+      "occupation": "student",
+      "disability_status": "no",
+      "farmer_status": "no",
+      "bpl_status": "no",
+      "ration_card_type": "none",
+      "education_level": "post-matric"
+    },
+    "recommendations": [
+      {
+        "scheme_id": "pm-yasasvi-post-matric-obc-ebc-dnt",
+        "scheme_name": "PM-YASASVI: Post-Matric Scholarship for OBC, EBC and DNT Students",
+        "category": "Education, Scholarship, OBC, EBC, DNT",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Caste category matches eligibility",
+          "Scheme is available in user's state",
+          "Occupation matches student eligibility",
+          "Education level matches eligibility"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pmjjby",
+        "scheme_name": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+        "category": "Insurance, Life Cover",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pmsby",
+        "scheme_name": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+        "category": "Insurance, Accident Cover",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "temp-test-education-scheme-1782666883881-1782666883885",
+        "scheme_name": "Test Education Scheme 1782666883881",
+        "category": "Education",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Student occupation matches education scheme keywords"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pm-sym",
+        "scheme_name": "Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM)",
+        "category": "Pension, Unorganised Workers",
+        "rule_score": 75,
+        "ml_score": 88,
+        "final_score": 80,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Income is within allowed limit",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "post-matric-sc",
+        "scheme_name": "Post-Matric Scholarship for SC Students",
+        "category": "Education, Scholarship, Scheduled Caste",
+        "rule_score": 75,
+        "ml_score": 84,
+        "final_score": 79,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state",
+          "Occupation matches student eligibility",
+          "Education level matches eligibility"
+        ],
+        "failed_conditions": [
+          "Caste category is not eligible"
+        ]
+      },
+      {
+        "scheme_id": "apy",
+        "scheme_name": "Atal Pension Yojana (APY)",
+        "category": "Pension, Social Security",
+        "rule_score": 67,
+        "ml_score": 83,
+        "final_score": 73,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-vishwakarma",
+        "scheme_name": "PM Vishwakarma",
+        "category": "Skill Development, Artisans, Credit",
+        "rule_score": 50,
+        "ml_score": 89,
+        "final_score": 66,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "ab-pmjay",
+        "scheme_name": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)",
+        "category": "Health, Insurance, Hospitalization",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmay-g",
+        "scheme_name": "Pradhan Mantri Awas Yojana - Gramin (PMAY-G)",
+        "category": "Housing, Rural Development",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmay-u",
+        "scheme_name": "Pradhan Mantri Awas Yojana - Urban (PMAY-U)",
+        "category": "Housing, Urban Development",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmmy",
+        "scheme_name": "Pradhan Mantri Mudra Yojana (PMMY)",
+        "category": "Entrepreneurship, Credit, MSME",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pmuy",
+        "scheme_name": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+        "category": "Energy, LPG, Women Welfare",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Gender does not match eligibility",
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "mssc",
+        "scheme_name": "Mahila Samman Savings Certificate",
+        "category": "Savings, Women Welfare",
+        "rule_score": 50,
+        "ml_score": 82,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Gender does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-svanidhi",
+        "scheme_name": "PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi)",
+        "category": "Livelihood, Micro Credit, Urban",
+        "rule_score": 50,
+        "ml_score": 83,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "scss",
+        "scheme_name": "Senior Citizens Savings Scheme (SCSS)",
+        "category": "Savings, Senior Citizens, Tax Benefit",
+        "rule_score": 50,
+        "ml_score": 82,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Age is not within eligible range"
+        ]
+      },
+      {
+        "scheme_id": "ssy",
+        "scheme_name": "Sukanya Samriddhi Yojana (SSY)",
+        "category": "Savings, Girl Child, Tax Benefit",
+        "rule_score": 33,
+        "ml_score": 83,
+        "final_score": 53,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Age is not within eligible range",
+          "Gender does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-kisan",
+        "scheme_name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+        "category": "Agriculture, Income Support, DBT",
+        "rule_score": 33,
+        "ml_score": 38,
+        "final_score": 35,
+        "status": "not_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not a farmer",
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "kcc",
+        "scheme_name": "Kisan Credit Card (KCC)",
+        "category": "Agriculture, Credit",
+        "rule_score": 33,
+        "ml_score": 30,
+        "final_score": 32,
+        "status": "not_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not a farmer",
+          "Occupation does not match eligibility"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1782667351040-ogi4xj",
+    "timestamp": "2026-06-28T17:22:31.040Z",
+    "citizen_profile": {
+      "age": 21,
+      "gender": "male",
+      "state": "Maharashtra",
+      "district": "bhandara",
+      "caste": "OBC",
+      "annual_income": null,
+      "occupation": "student",
+      "disability_status": "no",
+      "farmer_status": "no",
+      "bpl_status": "no",
+      "ration_card_type": "none",
+      "education_level": "post-matric"
+    },
+    "recommendations": [
+      {
+        "scheme_id": "pm-yasasvi-post-matric-obc-ebc-dnt",
+        "scheme_name": "PM-YASASVI: Post-Matric Scholarship for OBC, EBC and DNT Students",
+        "category": "Education, Scholarship, OBC, EBC, DNT",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Caste category matches eligibility",
+          "Scheme is available in user's state",
+          "Occupation matches student eligibility",
+          "Education level matches eligibility"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pmjjby",
+        "scheme_name": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+        "category": "Insurance, Life Cover",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pmsby",
+        "scheme_name": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+        "category": "Insurance, Accident Cover",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "temp-test-education-scheme-1782666883881-1782666883885",
+        "scheme_name": "Test Education Scheme 1782666883881",
+        "category": "Education",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Student occupation matches education scheme keywords"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pm-sym",
+        "scheme_name": "Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM)",
+        "category": "Pension, Unorganised Workers",
+        "rule_score": 75,
+        "ml_score": 88,
+        "final_score": 80,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Income is within allowed limit",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "post-matric-sc",
+        "scheme_name": "Post-Matric Scholarship for SC Students",
+        "category": "Education, Scholarship, Scheduled Caste",
+        "rule_score": 75,
+        "ml_score": 84,
+        "final_score": 79,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state",
+          "Occupation matches student eligibility",
+          "Education level matches eligibility"
+        ],
+        "failed_conditions": [
+          "Caste category is not eligible"
+        ]
+      },
+      {
+        "scheme_id": "apy",
+        "scheme_name": "Atal Pension Yojana (APY)",
+        "category": "Pension, Social Security",
+        "rule_score": 67,
+        "ml_score": 83,
+        "final_score": 73,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-vishwakarma",
+        "scheme_name": "PM Vishwakarma",
+        "category": "Skill Development, Artisans, Credit",
+        "rule_score": 50,
+        "ml_score": 89,
+        "final_score": 66,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "ab-pmjay",
+        "scheme_name": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)",
+        "category": "Health, Insurance, Hospitalization",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmay-g",
+        "scheme_name": "Pradhan Mantri Awas Yojana - Gramin (PMAY-G)",
+        "category": "Housing, Rural Development",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmay-u",
+        "scheme_name": "Pradhan Mantri Awas Yojana - Urban (PMAY-U)",
+        "category": "Housing, Urban Development",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmmy",
+        "scheme_name": "Pradhan Mantri Mudra Yojana (PMMY)",
+        "category": "Entrepreneurship, Credit, MSME",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pmuy",
+        "scheme_name": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+        "category": "Energy, LPG, Women Welfare",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Gender does not match eligibility",
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "mssc",
+        "scheme_name": "Mahila Samman Savings Certificate",
+        "category": "Savings, Women Welfare",
+        "rule_score": 50,
+        "ml_score": 82,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Gender does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-svanidhi",
+        "scheme_name": "PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi)",
+        "category": "Livelihood, Micro Credit, Urban",
+        "rule_score": 50,
+        "ml_score": 83,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "scss",
+        "scheme_name": "Senior Citizens Savings Scheme (SCSS)",
+        "category": "Savings, Senior Citizens, Tax Benefit",
+        "rule_score": 50,
+        "ml_score": 82,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Age is not within eligible range"
+        ]
+      },
+      {
+        "scheme_id": "ssy",
+        "scheme_name": "Sukanya Samriddhi Yojana (SSY)",
+        "category": "Savings, Girl Child, Tax Benefit",
+        "rule_score": 33,
+        "ml_score": 83,
+        "final_score": 53,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Age is not within eligible range",
+          "Gender does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-kisan",
+        "scheme_name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+        "category": "Agriculture, Income Support, DBT",
+        "rule_score": 33,
+        "ml_score": 38,
+        "final_score": 35,
+        "status": "not_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not a farmer",
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "kcc",
+        "scheme_name": "Kisan Credit Card (KCC)",
+        "category": "Agriculture, Credit",
+        "rule_score": 33,
+        "ml_score": 30,
+        "final_score": 32,
+        "status": "not_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not a farmer",
+          "Occupation does not match eligibility"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1782667351060-eci695",
+    "timestamp": "2026-06-28T17:22:31.060Z",
+    "citizen_profile": {
+      "age": 21,
+      "gender": "male",
+      "state": "Maharashtra",
+      "district": "bhandara",
+      "caste": "OBC",
+      "annual_income": null,
+      "occupation": "student",
+      "disability_status": "no",
+      "farmer_status": "no",
+      "bpl_status": "no",
+      "ration_card_type": "none",
+      "education_level": "post-matric"
+    },
+    "recommendations": [
+      {
+        "scheme_id": "pm-yasasvi-post-matric-obc-ebc-dnt",
+        "scheme_name": "PM-YASASVI: Post-Matric Scholarship for OBC, EBC and DNT Students",
+        "category": "Education, Scholarship, OBC, EBC, DNT",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Caste category matches eligibility",
+          "Scheme is available in user's state",
+          "Occupation matches student eligibility",
+          "Education level matches eligibility"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pmjjby",
+        "scheme_name": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+        "category": "Insurance, Life Cover",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pmsby",
+        "scheme_name": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+        "category": "Insurance, Accident Cover",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "temp-test-education-scheme-1782666883881-1782666883885",
+        "scheme_name": "Test Education Scheme 1782666883881",
+        "category": "Education",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Student occupation matches education scheme keywords"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pm-sym",
+        "scheme_name": "Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM)",
+        "category": "Pension, Unorganised Workers",
+        "rule_score": 75,
+        "ml_score": 88,
+        "final_score": 80,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Income is within allowed limit",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "post-matric-sc",
+        "scheme_name": "Post-Matric Scholarship for SC Students",
+        "category": "Education, Scholarship, Scheduled Caste",
+        "rule_score": 75,
+        "ml_score": 84,
+        "final_score": 79,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state",
+          "Occupation matches student eligibility",
+          "Education level matches eligibility"
+        ],
+        "failed_conditions": [
+          "Caste category is not eligible"
+        ]
+      },
+      {
+        "scheme_id": "apy",
+        "scheme_name": "Atal Pension Yojana (APY)",
+        "category": "Pension, Social Security",
+        "rule_score": 67,
+        "ml_score": 83,
+        "final_score": 73,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-vishwakarma",
+        "scheme_name": "PM Vishwakarma",
+        "category": "Skill Development, Artisans, Credit",
+        "rule_score": 50,
+        "ml_score": 89,
+        "final_score": 66,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "ab-pmjay",
+        "scheme_name": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)",
+        "category": "Health, Insurance, Hospitalization",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmay-g",
+        "scheme_name": "Pradhan Mantri Awas Yojana - Gramin (PMAY-G)",
+        "category": "Housing, Rural Development",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmay-u",
+        "scheme_name": "Pradhan Mantri Awas Yojana - Urban (PMAY-U)",
+        "category": "Housing, Urban Development",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmmy",
+        "scheme_name": "Pradhan Mantri Mudra Yojana (PMMY)",
+        "category": "Entrepreneurship, Credit, MSME",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pmuy",
+        "scheme_name": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+        "category": "Energy, LPG, Women Welfare",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Gender does not match eligibility",
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "mssc",
+        "scheme_name": "Mahila Samman Savings Certificate",
+        "category": "Savings, Women Welfare",
+        "rule_score": 50,
+        "ml_score": 82,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Gender does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-svanidhi",
+        "scheme_name": "PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi)",
+        "category": "Livelihood, Micro Credit, Urban",
+        "rule_score": 50,
+        "ml_score": 83,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "scss",
+        "scheme_name": "Senior Citizens Savings Scheme (SCSS)",
+        "category": "Savings, Senior Citizens, Tax Benefit",
+        "rule_score": 50,
+        "ml_score": 82,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Age is not within eligible range"
+        ]
+      },
+      {
+        "scheme_id": "ssy",
+        "scheme_name": "Sukanya Samriddhi Yojana (SSY)",
+        "category": "Savings, Girl Child, Tax Benefit",
+        "rule_score": 33,
+        "ml_score": 83,
+        "final_score": 53,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Age is not within eligible range",
+          "Gender does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-kisan",
+        "scheme_name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+        "category": "Agriculture, Income Support, DBT",
+        "rule_score": 33,
+        "ml_score": 38,
+        "final_score": 35,
+        "status": "not_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not a farmer",
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "kcc",
+        "scheme_name": "Kisan Credit Card (KCC)",
+        "category": "Agriculture, Credit",
+        "rule_score": 33,
+        "ml_score": 30,
+        "final_score": 32,
+        "status": "not_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not a farmer",
+          "Occupation does not match eligibility"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1782667522845-zh1pqn",
+    "timestamp": "2026-06-28T17:25:22.845Z",
+    "citizen_profile": {
+      "age": 21,
+      "gender": "male",
+      "state": "Maharashtra",
+      "district": "bhandara",
+      "caste": "OBC",
+      "annual_income": null,
+      "occupation": "student",
+      "disability_status": "no",
+      "farmer_status": "no",
+      "bpl_status": "no",
+      "ration_card_type": "none",
+      "education_level": "post-matric"
+    },
+    "recommendations": [
+      {
+        "scheme_id": "pm-yasasvi-post-matric-obc-ebc-dnt",
+        "scheme_name": "PM-YASASVI: Post-Matric Scholarship for OBC, EBC and DNT Students",
+        "category": "Education, Scholarship, OBC, EBC, DNT",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Caste category matches eligibility",
+          "Scheme is available in user's state",
+          "Occupation matches student eligibility",
+          "Education level matches eligibility"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pmjjby",
+        "scheme_name": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+        "category": "Insurance, Life Cover",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pmsby",
+        "scheme_name": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+        "category": "Insurance, Accident Cover",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "temp-test-education-scheme-1782666883881-1782666883885",
+        "scheme_name": "Test Education Scheme 1782666883881",
+        "category": "Education",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Student occupation matches education scheme keywords"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pm-sym",
+        "scheme_name": "Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM)",
+        "category": "Pension, Unorganised Workers",
+        "rule_score": 75,
+        "ml_score": 88,
+        "final_score": 80,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Income is within allowed limit",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "post-matric-sc",
+        "scheme_name": "Post-Matric Scholarship for SC Students",
+        "category": "Education, Scholarship, Scheduled Caste",
+        "rule_score": 75,
+        "ml_score": 84,
+        "final_score": 79,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state",
+          "Occupation matches student eligibility",
+          "Education level matches eligibility"
+        ],
+        "failed_conditions": [
+          "Caste category is not eligible"
+        ]
+      },
+      {
+        "scheme_id": "apy",
+        "scheme_name": "Atal Pension Yojana (APY)",
+        "category": "Pension, Social Security",
+        "rule_score": 67,
+        "ml_score": 83,
+        "final_score": 73,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-vishwakarma",
+        "scheme_name": "PM Vishwakarma",
+        "category": "Skill Development, Artisans, Credit",
+        "rule_score": 50,
+        "ml_score": 89,
+        "final_score": 66,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "ab-pmjay",
+        "scheme_name": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)",
+        "category": "Health, Insurance, Hospitalization",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmay-g",
+        "scheme_name": "Pradhan Mantri Awas Yojana - Gramin (PMAY-G)",
+        "category": "Housing, Rural Development",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmay-u",
+        "scheme_name": "Pradhan Mantri Awas Yojana - Urban (PMAY-U)",
+        "category": "Housing, Urban Development",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmmy",
+        "scheme_name": "Pradhan Mantri Mudra Yojana (PMMY)",
+        "category": "Entrepreneurship, Credit, MSME",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pmuy",
+        "scheme_name": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+        "category": "Energy, LPG, Women Welfare",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Gender does not match eligibility",
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "mssc",
+        "scheme_name": "Mahila Samman Savings Certificate",
+        "category": "Savings, Women Welfare",
+        "rule_score": 50,
+        "ml_score": 82,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Gender does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-svanidhi",
+        "scheme_name": "PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi)",
+        "category": "Livelihood, Micro Credit, Urban",
+        "rule_score": 50,
+        "ml_score": 83,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "scss",
+        "scheme_name": "Senior Citizens Savings Scheme (SCSS)",
+        "category": "Savings, Senior Citizens, Tax Benefit",
+        "rule_score": 50,
+        "ml_score": 82,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Age is not within eligible range"
+        ]
+      },
+      {
+        "scheme_id": "ssy",
+        "scheme_name": "Sukanya Samriddhi Yojana (SSY)",
+        "category": "Savings, Girl Child, Tax Benefit",
+        "rule_score": 33,
+        "ml_score": 83,
+        "final_score": 53,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Age is not within eligible range",
+          "Gender does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-kisan",
+        "scheme_name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+        "category": "Agriculture, Income Support, DBT",
+        "rule_score": 33,
+        "ml_score": 38,
+        "final_score": 35,
+        "status": "not_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not a farmer",
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "kcc",
+        "scheme_name": "Kisan Credit Card (KCC)",
+        "category": "Agriculture, Credit",
+        "rule_score": 33,
+        "ml_score": 30,
+        "final_score": 32,
+        "status": "not_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not a farmer",
+          "Occupation does not match eligibility"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1782667522888-epbqpy",
+    "timestamp": "2026-06-28T17:25:22.888Z",
+    "citizen_profile": {
+      "age": 21,
+      "gender": "male",
+      "state": "Maharashtra",
+      "district": "bhandara",
+      "caste": "OBC",
+      "annual_income": null,
+      "occupation": "student",
+      "disability_status": "no",
+      "farmer_status": "no",
+      "bpl_status": "no",
+      "ration_card_type": "none",
+      "education_level": "post-matric"
+    },
+    "recommendations": [
+      {
+        "scheme_id": "pm-yasasvi-post-matric-obc-ebc-dnt",
+        "scheme_name": "PM-YASASVI: Post-Matric Scholarship for OBC, EBC and DNT Students",
+        "category": "Education, Scholarship, OBC, EBC, DNT",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Caste category matches eligibility",
+          "Scheme is available in user's state",
+          "Occupation matches student eligibility",
+          "Education level matches eligibility"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pmjjby",
+        "scheme_name": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+        "category": "Insurance, Life Cover",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pmsby",
+        "scheme_name": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+        "category": "Insurance, Accident Cover",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "temp-test-education-scheme-1782666883881-1782666883885",
+        "scheme_name": "Test Education Scheme 1782666883881",
+        "category": "Education",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Student occupation matches education scheme keywords"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pm-sym",
+        "scheme_name": "Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM)",
+        "category": "Pension, Unorganised Workers",
+        "rule_score": 75,
+        "ml_score": 88,
+        "final_score": 80,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Income is within allowed limit",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "post-matric-sc",
+        "scheme_name": "Post-Matric Scholarship for SC Students",
+        "category": "Education, Scholarship, Scheduled Caste",
+        "rule_score": 75,
+        "ml_score": 84,
+        "final_score": 79,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state",
+          "Occupation matches student eligibility",
+          "Education level matches eligibility"
+        ],
+        "failed_conditions": [
+          "Caste category is not eligible"
+        ]
+      },
+      {
+        "scheme_id": "apy",
+        "scheme_name": "Atal Pension Yojana (APY)",
+        "category": "Pension, Social Security",
+        "rule_score": 67,
+        "ml_score": 83,
+        "final_score": 73,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-vishwakarma",
+        "scheme_name": "PM Vishwakarma",
+        "category": "Skill Development, Artisans, Credit",
+        "rule_score": 50,
+        "ml_score": 89,
+        "final_score": 66,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "ab-pmjay",
+        "scheme_name": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)",
+        "category": "Health, Insurance, Hospitalization",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmay-g",
+        "scheme_name": "Pradhan Mantri Awas Yojana - Gramin (PMAY-G)",
+        "category": "Housing, Rural Development",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmay-u",
+        "scheme_name": "Pradhan Mantri Awas Yojana - Urban (PMAY-U)",
+        "category": "Housing, Urban Development",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmmy",
+        "scheme_name": "Pradhan Mantri Mudra Yojana (PMMY)",
+        "category": "Entrepreneurship, Credit, MSME",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pmuy",
+        "scheme_name": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+        "category": "Energy, LPG, Women Welfare",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Gender does not match eligibility",
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "mssc",
+        "scheme_name": "Mahila Samman Savings Certificate",
+        "category": "Savings, Women Welfare",
+        "rule_score": 50,
+        "ml_score": 82,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Gender does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-svanidhi",
+        "scheme_name": "PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi)",
+        "category": "Livelihood, Micro Credit, Urban",
+        "rule_score": 50,
+        "ml_score": 83,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "scss",
+        "scheme_name": "Senior Citizens Savings Scheme (SCSS)",
+        "category": "Savings, Senior Citizens, Tax Benefit",
+        "rule_score": 50,
+        "ml_score": 82,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Age is not within eligible range"
+        ]
+      },
+      {
+        "scheme_id": "ssy",
+        "scheme_name": "Sukanya Samriddhi Yojana (SSY)",
+        "category": "Savings, Girl Child, Tax Benefit",
+        "rule_score": 33,
+        "ml_score": 83,
+        "final_score": 53,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Age is not within eligible range",
+          "Gender does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-kisan",
+        "scheme_name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+        "category": "Agriculture, Income Support, DBT",
+        "rule_score": 33,
+        "ml_score": 38,
+        "final_score": 35,
+        "status": "not_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not a farmer",
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "kcc",
+        "scheme_name": "Kisan Credit Card (KCC)",
+        "category": "Agriculture, Credit",
+        "rule_score": 33,
+        "ml_score": 30,
+        "final_score": 32,
+        "status": "not_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not a farmer",
+          "Occupation does not match eligibility"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1782667535783-sgtmoq",
+    "timestamp": "2026-06-28T17:25:35.783Z",
+    "citizen_profile": {
+      "age": 21,
+      "gender": "male",
+      "state": "Maharashtra",
+      "district": "bhandara",
+      "caste": "OBC",
+      "annual_income": null,
+      "occupation": "student",
+      "disability_status": "no",
+      "farmer_status": "no",
+      "bpl_status": "no",
+      "ration_card_type": "none",
+      "education_level": "post-matric"
+    },
+    "recommendations": [
+      {
+        "scheme_id": "pm-yasasvi-post-matric-obc-ebc-dnt",
+        "scheme_name": "PM-YASASVI: Post-Matric Scholarship for OBC, EBC and DNT Students",
+        "category": "Education, Scholarship, OBC, EBC, DNT",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Caste category matches eligibility",
+          "Scheme is available in user's state",
+          "Occupation matches student eligibility",
+          "Education level matches eligibility"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pmjjby",
+        "scheme_name": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+        "category": "Insurance, Life Cover",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pmsby",
+        "scheme_name": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+        "category": "Insurance, Accident Cover",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "temp-test-education-scheme-1782666883881-1782666883885",
+        "scheme_name": "Test Education Scheme 1782666883881",
+        "category": "Education",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Student occupation matches education scheme keywords"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pm-sym",
+        "scheme_name": "Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM)",
+        "category": "Pension, Unorganised Workers",
+        "rule_score": 75,
+        "ml_score": 88,
+        "final_score": 80,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Income is within allowed limit",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "post-matric-sc",
+        "scheme_name": "Post-Matric Scholarship for SC Students",
+        "category": "Education, Scholarship, Scheduled Caste",
+        "rule_score": 75,
+        "ml_score": 84,
+        "final_score": 79,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state",
+          "Occupation matches student eligibility",
+          "Education level matches eligibility"
+        ],
+        "failed_conditions": [
+          "Caste category is not eligible"
+        ]
+      },
+      {
+        "scheme_id": "apy",
+        "scheme_name": "Atal Pension Yojana (APY)",
+        "category": "Pension, Social Security",
+        "rule_score": 67,
+        "ml_score": 83,
+        "final_score": 73,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-vishwakarma",
+        "scheme_name": "PM Vishwakarma",
+        "category": "Skill Development, Artisans, Credit",
+        "rule_score": 50,
+        "ml_score": 89,
+        "final_score": 66,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "ab-pmjay",
+        "scheme_name": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)",
+        "category": "Health, Insurance, Hospitalization",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmay-g",
+        "scheme_name": "Pradhan Mantri Awas Yojana - Gramin (PMAY-G)",
+        "category": "Housing, Rural Development",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmay-u",
+        "scheme_name": "Pradhan Mantri Awas Yojana - Urban (PMAY-U)",
+        "category": "Housing, Urban Development",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmmy",
+        "scheme_name": "Pradhan Mantri Mudra Yojana (PMMY)",
+        "category": "Entrepreneurship, Credit, MSME",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pmuy",
+        "scheme_name": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+        "category": "Energy, LPG, Women Welfare",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Gender does not match eligibility",
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "mssc",
+        "scheme_name": "Mahila Samman Savings Certificate",
+        "category": "Savings, Women Welfare",
+        "rule_score": 50,
+        "ml_score": 82,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Gender does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-svanidhi",
+        "scheme_name": "PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi)",
+        "category": "Livelihood, Micro Credit, Urban",
+        "rule_score": 50,
+        "ml_score": 83,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "scss",
+        "scheme_name": "Senior Citizens Savings Scheme (SCSS)",
+        "category": "Savings, Senior Citizens, Tax Benefit",
+        "rule_score": 50,
+        "ml_score": 82,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Age is not within eligible range"
+        ]
+      },
+      {
+        "scheme_id": "ssy",
+        "scheme_name": "Sukanya Samriddhi Yojana (SSY)",
+        "category": "Savings, Girl Child, Tax Benefit",
+        "rule_score": 33,
+        "ml_score": 83,
+        "final_score": 53,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Age is not within eligible range",
+          "Gender does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-kisan",
+        "scheme_name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+        "category": "Agriculture, Income Support, DBT",
+        "rule_score": 33,
+        "ml_score": 38,
+        "final_score": 35,
+        "status": "not_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not a farmer",
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "kcc",
+        "scheme_name": "Kisan Credit Card (KCC)",
+        "category": "Agriculture, Credit",
+        "rule_score": 33,
+        "ml_score": 30,
+        "final_score": 32,
+        "status": "not_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not a farmer",
+          "Occupation does not match eligibility"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1782667535796-5pjo5s",
+    "timestamp": "2026-06-28T17:25:35.796Z",
+    "citizen_profile": {
+      "age": 21,
+      "gender": "male",
+      "state": "Maharashtra",
+      "district": "bhandara",
+      "caste": "OBC",
+      "annual_income": null,
+      "occupation": "student",
+      "disability_status": "no",
+      "farmer_status": "no",
+      "bpl_status": "no",
+      "ration_card_type": "none",
+      "education_level": "post-matric"
+    },
+    "recommendations": [
+      {
+        "scheme_id": "pm-yasasvi-post-matric-obc-ebc-dnt",
+        "scheme_name": "PM-YASASVI: Post-Matric Scholarship for OBC, EBC and DNT Students",
+        "category": "Education, Scholarship, OBC, EBC, DNT",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Caste category matches eligibility",
+          "Scheme is available in user's state",
+          "Occupation matches student eligibility",
+          "Education level matches eligibility"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pmjjby",
+        "scheme_name": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+        "category": "Insurance, Life Cover",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pmsby",
+        "scheme_name": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+        "category": "Insurance, Accident Cover",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "temp-test-education-scheme-1782666883881-1782666883885",
+        "scheme_name": "Test Education Scheme 1782666883881",
+        "category": "Education",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Student occupation matches education scheme keywords"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pm-sym",
+        "scheme_name": "Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM)",
+        "category": "Pension, Unorganised Workers",
+        "rule_score": 75,
+        "ml_score": 88,
+        "final_score": 80,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Income is within allowed limit",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "post-matric-sc",
+        "scheme_name": "Post-Matric Scholarship for SC Students",
+        "category": "Education, Scholarship, Scheduled Caste",
+        "rule_score": 75,
+        "ml_score": 84,
+        "final_score": 79,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state",
+          "Occupation matches student eligibility",
+          "Education level matches eligibility"
+        ],
+        "failed_conditions": [
+          "Caste category is not eligible"
+        ]
+      },
+      {
+        "scheme_id": "apy",
+        "scheme_name": "Atal Pension Yojana (APY)",
+        "category": "Pension, Social Security",
+        "rule_score": 67,
+        "ml_score": 83,
+        "final_score": 73,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-vishwakarma",
+        "scheme_name": "PM Vishwakarma",
+        "category": "Skill Development, Artisans, Credit",
+        "rule_score": 50,
+        "ml_score": 89,
+        "final_score": 66,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "ab-pmjay",
+        "scheme_name": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)",
+        "category": "Health, Insurance, Hospitalization",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmay-g",
+        "scheme_name": "Pradhan Mantri Awas Yojana - Gramin (PMAY-G)",
+        "category": "Housing, Rural Development",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmay-u",
+        "scheme_name": "Pradhan Mantri Awas Yojana - Urban (PMAY-U)",
+        "category": "Housing, Urban Development",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmmy",
+        "scheme_name": "Pradhan Mantri Mudra Yojana (PMMY)",
+        "category": "Entrepreneurship, Credit, MSME",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pmuy",
+        "scheme_name": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+        "category": "Energy, LPG, Women Welfare",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Gender does not match eligibility",
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "mssc",
+        "scheme_name": "Mahila Samman Savings Certificate",
+        "category": "Savings, Women Welfare",
+        "rule_score": 50,
+        "ml_score": 82,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Gender does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-svanidhi",
+        "scheme_name": "PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi)",
+        "category": "Livelihood, Micro Credit, Urban",
+        "rule_score": 50,
+        "ml_score": 83,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "scss",
+        "scheme_name": "Senior Citizens Savings Scheme (SCSS)",
+        "category": "Savings, Senior Citizens, Tax Benefit",
+        "rule_score": 50,
+        "ml_score": 82,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Age is not within eligible range"
+        ]
+      },
+      {
+        "scheme_id": "ssy",
+        "scheme_name": "Sukanya Samriddhi Yojana (SSY)",
+        "category": "Savings, Girl Child, Tax Benefit",
+        "rule_score": 33,
+        "ml_score": 83,
+        "final_score": 53,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Age is not within eligible range",
+          "Gender does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-kisan",
+        "scheme_name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+        "category": "Agriculture, Income Support, DBT",
+        "rule_score": 33,
+        "ml_score": 38,
+        "final_score": 35,
+        "status": "not_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not a farmer",
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "kcc",
+        "scheme_name": "Kisan Credit Card (KCC)",
+        "category": "Agriculture, Credit",
+        "rule_score": 33,
+        "ml_score": 30,
+        "final_score": 32,
+        "status": "not_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not a farmer",
+          "Occupation does not match eligibility"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1782667555348-cqrfxh",
+    "timestamp": "2026-06-28T17:25:55.348Z",
+    "citizen_profile": {
+      "age": 21,
+      "gender": "male",
+      "state": "Maharashtra",
+      "district": "bhandara",
+      "caste": "OBC",
+      "annual_income": null,
+      "occupation": "student",
+      "disability_status": "no",
+      "farmer_status": "no",
+      "bpl_status": "no",
+      "ration_card_type": "none",
+      "education_level": "post-matric"
+    },
+    "recommendations": [
+      {
+        "scheme_id": "pm-yasasvi-post-matric-obc-ebc-dnt",
+        "scheme_name": "PM-YASASVI: Post-Matric Scholarship for OBC, EBC and DNT Students",
+        "category": "Education, Scholarship, OBC, EBC, DNT",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Caste category matches eligibility",
+          "Scheme is available in user's state",
+          "Occupation matches student eligibility",
+          "Education level matches eligibility"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pmjjby",
+        "scheme_name": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+        "category": "Insurance, Life Cover",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pmsby",
+        "scheme_name": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+        "category": "Insurance, Accident Cover",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "temp-test-education-scheme-1782666883881-1782666883885",
+        "scheme_name": "Test Education Scheme 1782666883881",
+        "category": "Education",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Student occupation matches education scheme keywords"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pm-sym",
+        "scheme_name": "Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM)",
+        "category": "Pension, Unorganised Workers",
+        "rule_score": 75,
+        "ml_score": 88,
+        "final_score": 80,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Income is within allowed limit",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "post-matric-sc",
+        "scheme_name": "Post-Matric Scholarship for SC Students",
+        "category": "Education, Scholarship, Scheduled Caste",
+        "rule_score": 75,
+        "ml_score": 84,
+        "final_score": 79,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state",
+          "Occupation matches student eligibility",
+          "Education level matches eligibility"
+        ],
+        "failed_conditions": [
+          "Caste category is not eligible"
+        ]
+      },
+      {
+        "scheme_id": "apy",
+        "scheme_name": "Atal Pension Yojana (APY)",
+        "category": "Pension, Social Security",
+        "rule_score": 67,
+        "ml_score": 83,
+        "final_score": 73,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-vishwakarma",
+        "scheme_name": "PM Vishwakarma",
+        "category": "Skill Development, Artisans, Credit",
+        "rule_score": 50,
+        "ml_score": 89,
+        "final_score": 66,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "ab-pmjay",
+        "scheme_name": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)",
+        "category": "Health, Insurance, Hospitalization",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmay-g",
+        "scheme_name": "Pradhan Mantri Awas Yojana - Gramin (PMAY-G)",
+        "category": "Housing, Rural Development",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmay-u",
+        "scheme_name": "Pradhan Mantri Awas Yojana - Urban (PMAY-U)",
+        "category": "Housing, Urban Development",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmmy",
+        "scheme_name": "Pradhan Mantri Mudra Yojana (PMMY)",
+        "category": "Entrepreneurship, Credit, MSME",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pmuy",
+        "scheme_name": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+        "category": "Energy, LPG, Women Welfare",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Gender does not match eligibility",
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "mssc",
+        "scheme_name": "Mahila Samman Savings Certificate",
+        "category": "Savings, Women Welfare",
+        "rule_score": 50,
+        "ml_score": 82,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Gender does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-svanidhi",
+        "scheme_name": "PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi)",
+        "category": "Livelihood, Micro Credit, Urban",
+        "rule_score": 50,
+        "ml_score": 83,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "scss",
+        "scheme_name": "Senior Citizens Savings Scheme (SCSS)",
+        "category": "Savings, Senior Citizens, Tax Benefit",
+        "rule_score": 50,
+        "ml_score": 82,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Age is not within eligible range"
+        ]
+      },
+      {
+        "scheme_id": "ssy",
+        "scheme_name": "Sukanya Samriddhi Yojana (SSY)",
+        "category": "Savings, Girl Child, Tax Benefit",
+        "rule_score": 33,
+        "ml_score": 83,
+        "final_score": 53,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Age is not within eligible range",
+          "Gender does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-kisan",
+        "scheme_name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+        "category": "Agriculture, Income Support, DBT",
+        "rule_score": 33,
+        "ml_score": 38,
+        "final_score": 35,
+        "status": "not_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not a farmer",
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "kcc",
+        "scheme_name": "Kisan Credit Card (KCC)",
+        "category": "Agriculture, Credit",
+        "rule_score": 33,
+        "ml_score": 30,
+        "final_score": 32,
+        "status": "not_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not a farmer",
+          "Occupation does not match eligibility"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1782667555358-ua8i5p",
+    "timestamp": "2026-06-28T17:25:55.358Z",
+    "citizen_profile": {
+      "age": 21,
+      "gender": "male",
+      "state": "Maharashtra",
+      "district": "bhandara",
+      "caste": "OBC",
+      "annual_income": null,
+      "occupation": "student",
+      "disability_status": "no",
+      "farmer_status": "no",
+      "bpl_status": "no",
+      "ration_card_type": "none",
+      "education_level": "post-matric"
+    },
+    "recommendations": [
+      {
+        "scheme_id": "pm-yasasvi-post-matric-obc-ebc-dnt",
+        "scheme_name": "PM-YASASVI: Post-Matric Scholarship for OBC, EBC and DNT Students",
+        "category": "Education, Scholarship, OBC, EBC, DNT",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Caste category matches eligibility",
+          "Scheme is available in user's state",
+          "Occupation matches student eligibility",
+          "Education level matches eligibility"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pmjjby",
+        "scheme_name": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+        "category": "Insurance, Life Cover",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pmsby",
+        "scheme_name": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+        "category": "Insurance, Accident Cover",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "temp-test-education-scheme-1782666883881-1782666883885",
+        "scheme_name": "Test Education Scheme 1782666883881",
+        "category": "Education",
+        "rule_score": 100,
+        "ml_score": 86,
+        "final_score": 94,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Student occupation matches education scheme keywords"
+        ],
+        "failed_conditions": []
+      },
+      {
+        "scheme_id": "pm-sym",
+        "scheme_name": "Pradhan Mantri Shram Yogi Maan-dhan (PM-SYM)",
+        "category": "Pension, Unorganised Workers",
+        "rule_score": 75,
+        "ml_score": 88,
+        "final_score": 80,
+        "status": "likely_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Income is within allowed limit",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "post-matric-sc",
+        "scheme_name": "Post-Matric Scholarship for SC Students",
+        "category": "Education, Scholarship, Scheduled Caste",
+        "rule_score": 75,
+        "ml_score": 84,
+        "final_score": 79,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state",
+          "Occupation matches student eligibility",
+          "Education level matches eligibility"
+        ],
+        "failed_conditions": [
+          "Caste category is not eligible"
+        ]
+      },
+      {
+        "scheme_id": "apy",
+        "scheme_name": "Atal Pension Yojana (APY)",
+        "category": "Pension, Social Security",
+        "rule_score": 67,
+        "ml_score": 83,
+        "final_score": 73,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-vishwakarma",
+        "scheme_name": "PM Vishwakarma",
+        "category": "Skill Development, Artisans, Credit",
+        "rule_score": 50,
+        "ml_score": 89,
+        "final_score": 66,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "ab-pmjay",
+        "scheme_name": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY)",
+        "category": "Health, Insurance, Hospitalization",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmay-g",
+        "scheme_name": "Pradhan Mantri Awas Yojana - Gramin (PMAY-G)",
+        "category": "Housing, Rural Development",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmay-u",
+        "scheme_name": "Pradhan Mantri Awas Yojana - Urban (PMAY-U)",
+        "category": "Housing, Urban Development",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "pmmy",
+        "scheme_name": "Pradhan Mantri Mudra Yojana (PMMY)",
+        "category": "Entrepreneurship, Credit, MSME",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pmuy",
+        "scheme_name": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+        "category": "Energy, LPG, Women Welfare",
+        "rule_score": 50,
+        "ml_score": 86,
+        "final_score": 64,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Age is within eligible range",
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Gender does not match eligibility",
+          "User is not BPL"
+        ]
+      },
+      {
+        "scheme_id": "mssc",
+        "scheme_name": "Mahila Samman Savings Certificate",
+        "category": "Savings, Women Welfare",
+        "rule_score": 50,
+        "ml_score": 82,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Gender does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-svanidhi",
+        "scheme_name": "PM Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi)",
+        "category": "Livelihood, Micro Credit, Urban",
+        "rule_score": 50,
+        "ml_score": 83,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "scss",
+        "scheme_name": "Senior Citizens Savings Scheme (SCSS)",
+        "category": "Savings, Senior Citizens, Tax Benefit",
+        "rule_score": 50,
+        "ml_score": 82,
+        "final_score": 63,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Age is not within eligible range"
+        ]
+      },
+      {
+        "scheme_id": "ssy",
+        "scheme_name": "Sukanya Samriddhi Yojana (SSY)",
+        "category": "Savings, Girl Child, Tax Benefit",
+        "rule_score": 33,
+        "ml_score": 83,
+        "final_score": 53,
+        "status": "partially_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "Age is not within eligible range",
+          "Gender does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "pm-kisan",
+        "scheme_name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+        "category": "Agriculture, Income Support, DBT",
+        "rule_score": 33,
+        "ml_score": 38,
+        "final_score": 35,
+        "status": "not_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not a farmer",
+          "Occupation does not match eligibility"
+        ]
+      },
+      {
+        "scheme_id": "kcc",
+        "scheme_name": "Kisan Credit Card (KCC)",
+        "category": "Agriculture, Credit",
+        "rule_score": 33,
+        "ml_score": 30,
+        "final_score": 32,
+        "status": "not_eligible",
+        "matched_conditions": [
+          "Scheme is available in user's state"
+        ],
+        "failed_conditions": [
+          "User is not a farmer",
+          "Occupation does not match eligibility"
+        ]
+      }
+    ]
   }
 ]
