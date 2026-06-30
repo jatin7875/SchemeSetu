@@ -9,7 +9,7 @@ const navItems = [
   { to: "/recommended", label: "Recommendations", icon: SearchCheck },
   { to: "/dashboard", label: "Dashboard", icon: Gauge },
   { to: "/verify-document", label: "Verify Document", icon: FileCheck2 },
-  { to: "/admin/add-scheme", label: "Admin", icon: PlusCircle },
+  { to: "/admin/schemes", label: "Admin", icon: PlusCircle },
   { to: "/analytics", label: "Analytics", icon: BarChart3 }
 ];
 

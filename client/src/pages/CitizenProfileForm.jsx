@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { RotateCcw, SearchCheck, Trash2 } from "lucide-react";
-import api from "../api.js";
+import { getRecommendations } from "../services/recommendationService.js";
 import Button from "../components/ui/Button.jsx";
 import Card from "../components/ui/Card.jsx";
 import Input from "../components/ui/Input.jsx";
@@ -102,11 +102,16 @@ function CitizenProfileForm() {
 
     try {
       localStorage.setItem("citizenProfile", JSON.stringify(formData));
-      const response = await api.post("/recommend", formData);
-      localStorage.setItem("recommendedSchemes", JSON.stringify(response.data.recommendations || []));
+      const response = await getRecommendations(formData);
+      localStorage.setItem("recommendedSchemes", JSON.stringify(response.recommendations || []));
       localStorage.setItem("analytics_updated_at", Date.now().toString());
       setMessage("Profile saved. Opening recommendations...");
-      window.setTimeout(() => navigate("/recommended"), 350);
+      window.setTimeout(() => navigate("/recommended", {
+        state: {
+          recommendations: response.recommendations || [],
+          message: response.message || ""
+        }
+      }), 350);
     } catch (err) {
       setError(err.response?.data?.message || "Unable to get recommendations. Please try again.");
     } finally {

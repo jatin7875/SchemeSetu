@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { ArrowLeft, CheckCircle2, ExternalLink, XCircle } from "lucide-react";
-import api from "../api.js";
+import { getSchemeById } from "../services/schemeService.js";
 import Badge from "../components/ui/Badge.jsx";
 import Button from "../components/ui/Button.jsx";
 import Card from "../components/ui/Card.jsx";
@@ -30,10 +30,10 @@ function SchemeDetails() {
     setLoading(true);
     setError("");
     try {
-      const response = await api.get(`/schemes/${id}`);
+      const schemeData = await getSchemeById(id);
       const savedRecommendations = JSON.parse(localStorage.getItem("recommendedSchemes") || "[]");
       const currentEvaluation = savedRecommendations.find((item) => item.scheme_id === id);
-      setScheme({ ...response.data, ...currentEvaluation });
+      setScheme({ ...schemeData, ...currentEvaluation });
     } catch (err) {
       setError(err.response?.data?.message || "Unable to load scheme details.");
     } finally {
@@ -58,8 +58,8 @@ function SchemeDetails() {
   const sourceUrls = Array.isArray(scheme.source_urls) ? scheme.source_urls : [scheme.source_urls].filter(Boolean);
   const matchedConditions = scheme.matched_conditions || [];
   const failedConditions = scheme.failed_conditions || [];
-  const ruleScore = scheme.rule_score ?? scheme.match_score;
-  const mlScore = scheme.ml_score;
+  const ruleScore = scheme.rule_score ?? scheme.eligibility_match ?? scheme.match_score;
+  const mlScore = scheme.ml_score ?? scheme.profile_relevance;
   const semanticScore = scheme.semantic_score;
   const modelScore = scheme.model_score;
   const finalScore = scheme.final_score ?? scheme.match_score;

@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { BarChart3, FileCheck2, PlusCircle, SearchCheck } from "lucide-react";
 import api from "../api.js";
+import { getRecommendations } from "../services/recommendationService.js";
 import Badge from "../components/ui/Badge.jsx";
 import Button from "../components/ui/Button.jsx";
 import Card from "../components/ui/Card.jsx";
@@ -62,11 +63,11 @@ function Dashboard() {
       const [dashboardResponse, recommendResponse] = await Promise.all([
         api.get("/dashboard"),
         savedProfile
-          ? api.post("/recommend", JSON.parse(savedProfile))
-          : Promise.resolve({ data: { recommendations: JSON.parse(localStorage.getItem("recommendedSchemes") || "[]") } })
+          ? getRecommendations(JSON.parse(savedProfile))
+          : Promise.resolve({ recommendations: JSON.parse(localStorage.getItem("recommendedSchemes") || "[]") })
       ]);
 
-      const recommendations = recommendResponse.data.recommendations || [];
+      const recommendations = recommendResponse.recommendations || recommendResponse.data?.recommendations || [];
       localStorage.setItem("recommendedSchemes", JSON.stringify(recommendations));
       setStats(dashboardResponse.data);
       setRecommendationStats(buildRecommendationStats(recommendations));

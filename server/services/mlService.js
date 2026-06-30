@@ -11,13 +11,13 @@ export async function getMLRankings(citizenProfile, schemes) {
         schemes
       },
       {
-        timeout: 120000
+        timeout: 10000
       }
     );
 
     return response.data.rankings || [];
   } catch (error) {
-    console.warn(`ML service unavailable. Falling back to rule scores only: ${error.message}`);
+    console.warn(`ML service unavailable. Using rule-based recommendations only. ${error.message}`);
     return [];
   }
 }

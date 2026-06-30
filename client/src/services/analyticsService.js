@@ -1,4 +1,4 @@
-import api from "../api.js";
+import api from "./api.js";
 
 export async function getAnalyticsDashboard() {
   const response = await api.get(`/analytics/dashboard?t=${Date.now()}`);

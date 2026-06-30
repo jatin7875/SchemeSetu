@@ -1,12 +1,16 @@
 import express from "express";
-import { getAllSchemes, normalizeSchemeForClient } from "../utils/schemeStore.js";
+import { findSchemeById, normalizeSchemeForClient, paginateSchemes } from "../utils/schemeStore.js";
 
 const router = express.Router();
 
 router.get("/", async (req, res, next) => {
   try {
-    const schemes = await getAllSchemes();
-    res.json(schemes.map(normalizeSchemeForClient));
+    const result = await paginateSchemes({ ...req.query, publicOnly: true });
+    res.json({
+      success: true,
+      schemes: result.items.map(normalizeSchemeForClient),
+      pagination: result.pagination
+    });
   } catch (error) {
     next(error);
   }
@@ -14,14 +18,13 @@ router.get("/", async (req, res, next) => {
 
 router.get("/:id", async (req, res, next) => {
   try {
-    const schemes = await getAllSchemes();
-    const scheme = schemes.find((item) => item.scheme_id === req.params.id);
+    const scheme = await findSchemeById(req.params.id);
 
     if (!scheme) {
-      return res.status(404).json({ message: "Scheme not found" });
+      return res.status(404).json({ success: false, message: "Scheme not found" });
     }
 
-    res.json(normalizeSchemeForClient(scheme));
+    res.json({ success: true, scheme: normalizeSchemeForClient(scheme) });
   } catch (error) {
     next(error);
   }

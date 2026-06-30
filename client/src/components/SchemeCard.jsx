@@ -18,8 +18,8 @@ function SchemeCard({ scheme }) {
   const matchedConditions = scheme.matched_conditions || scheme.match_reasons || [];
   const failedConditions = scheme.failed_conditions || [];
   const status = scheme.status || "not_eligible";
-  const ruleScore = scheme.rule_score ?? scheme.match_score ?? 0;
-  const mlScore = scheme.ml_score;
+  const ruleScore = scheme.rule_score ?? scheme.eligibility_match ?? scheme.match_score ?? 0;
+  const mlScore = scheme.ml_score ?? scheme.profile_relevance;
   const semanticScore = scheme.semantic_score;
   const modelScore = scheme.model_score;
   const finalScore = scheme.final_score ?? scheme.match_score ?? ruleScore;

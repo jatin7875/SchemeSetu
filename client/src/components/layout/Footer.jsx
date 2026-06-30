@@ -18,7 +18,7 @@ function Footer() {
             <Link to="/profile">Profile</Link>
             <Link to="/recommended">Recommendations</Link>
             <Link to="/verify-document">Verify Document</Link>
-            <Link to="/analytics">Analytics</Link>
+            <Link to="/admin/login">Admin Login</Link>
           </nav>
         </section>
 

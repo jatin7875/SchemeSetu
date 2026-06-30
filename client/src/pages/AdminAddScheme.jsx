@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Wand2 } from "lucide-react";
 import api from "../api.js";
+import { createAdminScheme } from "../services/adminService.js";
 import Button from "../components/ui/Button.jsx";
 import Card from "../components/ui/Card.jsx";
 import Input from "../components/ui/Input.jsx";
@@ -68,11 +69,11 @@ function AdminAddScheme() {
     }
 
     try {
-      const response = await api.post("/admin/schemes", {
+      const response = await createAdminScheme({
         ...formData,
         eligibility_rules_extracted: eligibilityRulesExtracted
       });
-      setMessage(response.data.message || "Scheme added temporarily.");
+      setMessage(response.message || "Scheme saved for admin review.");
       setFormData(initialForm);
       setExtractedRulesText("[]");
     } catch (err) {

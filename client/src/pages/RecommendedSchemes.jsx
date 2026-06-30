@@ -1,8 +1,8 @@
 import { useEffect, useMemo, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { RefreshCw, Search } from "lucide-react";
 import SchemeCard from "../components/SchemeCard.jsx";
-import api from "../api.js";
+import { getRecommendations } from "../services/recommendationService.js";
 import Badge from "../components/ui/Badge.jsx";
 import Button from "../components/ui/Button.jsx";
 import Card from "../components/ui/Card.jsx";
@@ -28,7 +28,11 @@ function getCategoryList(recommendations) {
 }
 
 function RecommendedSchemes() {
+  const location = useLocation();
   const [recommendations, setRecommendations] = useState(() => {
+    if (Array.isArray(location.state?.recommendations)) {
+      return location.state.recommendations;
+    }
     const saved = localStorage.getItem("recommendedSchemes");
     return saved ? JSON.parse(saved) : [];
   });
@@ -48,9 +52,9 @@ function RecommendedSchemes() {
     setLoading(true);
     setError("");
     try {
-      const response = await api.post("/recommend", profile);
-      setRecommendations(response.data.recommendations || []);
-      localStorage.setItem("recommendedSchemes", JSON.stringify(response.data.recommendations || []));
+      const response = await getRecommendations(profile);
+      setRecommendations(response.recommendations || []);
+      localStorage.setItem("recommendedSchemes", JSON.stringify(response.recommendations || []));
       localStorage.setItem("analytics_updated_at", Date.now().toString());
     } catch (err) {
       setError(err.response?.data?.message || "Unable to load recommendations.");
@@ -78,15 +82,18 @@ function RecommendedSchemes() {
       })
       .filter((scheme) => scheme.scheme_name.toLowerCase().includes(searchTerm.trim().toLowerCase()))
       .sort((a, b) => {
-        const scoreA = Number(a.final_score ?? a.match_score ?? 0);
-        const scoreB = Number(b.final_score ?? b.match_score ?? 0);
+        const scoreA = Number(a.final_score ?? a.match_score ?? a.rule_score ?? a.eligibility_match ?? 0);
+        const scoreB = Number(b.final_score ?? b.match_score ?? b.rule_score ?? b.eligibility_match ?? 0);
         if (sortBy === "score_asc") return scoreA - scoreB;
         if (sortBy === "name") return a.scheme_name.localeCompare(b.scheme_name);
         return scoreB - scoreA;
       });
   }, [recommendations, statusFilter, categoryFilter, sortBy, searchTerm]);
 
-  const bestMatch = recommendations.reduce((best, item) => Math.max(best, Number(item.final_score ?? item.match_score ?? 0)), 0);
+  const bestMatch = recommendations.reduce((best, item) => {
+    const score = Number(item.final_score ?? item.match_score ?? item.rule_score ?? item.eligibility_match ?? 0);
+    return Math.max(best, score);
+  }, 0);
   const likelyEligibleCount = recommendations.filter((scheme) => scheme.status === "likely_eligible").length;
 
   if (!profile) {

@@ -4,6 +4,8 @@ import { fileURLToPath } from "url";
 import express from "express";
 import multer from "multer";
 import { verifyDocument } from "../services/ocrService.js";
+import { isMongoConnected } from "../config/db.js";
+import OcrVerification from "../models/OcrVerification.js";
 
 const router = express.Router();
 const __filename = fileURLToPath(import.meta.url);
@@ -58,9 +60,23 @@ router.post("/verify-document", upload.single("document"), async (req, res, next
     }
 
     const result = await verifyDocument(uploadedFile.path, citizenProfile);
+    let verificationRecord = null;
+
+    if (isMongoConnected()) {
+      verificationRecord = await OcrVerification.create({
+        citizen_profile_id: citizenProfile.citizen_profile_id || citizenProfile._id || null,
+        document_type: req.body.documentType || req.body.document_type || "unknown",
+        extracted_data: result.extracted_data,
+        verification: result.verification
+      });
+    }
 
     res.json({
-      ...result,
+      success: result.success,
+      raw_text: process.env.NODE_ENV === "production" ? undefined : result.raw_text,
+      extracted_data: result.extracted_data,
+      verification: result.verification,
+      ocr_verification_id: verificationRecord?._id || null,
       document_name: uploadedFile.originalname
     });
   } catch (error) {

@@ -1,6 +1,8 @@
 import fs from "fs/promises";
 import path from "path";
 import { fileURLToPath } from "url";
+import { isMongoConnected } from "../config/db.js";
+import AnalyticsEvent from "../models/AnalyticsEvent.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -52,6 +54,16 @@ async function ensureAnalyticsFile() {
 }
 
 export async function readAnalyticsEvents() {
+  if (isMongoConnected()) {
+    const events = await AnalyticsEvent.find().sort({ createdAt: -1 }).lean();
+    return events.map((event) => ({
+      id: event._id.toString(),
+      timestamp: event.createdAt?.toISOString?.() || event.createdAt,
+      citizen_profile: event.citizen_profile || {},
+      recommendations: event.recommendations || []
+    }));
+  }
+
   try {
     await ensureAnalyticsFile();
     const raw = await fs.readFile(analyticsPath, "utf-8");
@@ -65,6 +77,22 @@ export async function readAnalyticsEvents() {
 }
 
 export async function appendAnalyticsEvent(event) {
+  if (isMongoConnected()) {
+    const safeEvent = {
+      event_type: event.event_type || "recommendation_generated",
+      citizen_profile_id: event.citizen_profile_id || null,
+      recommendation_id: event.recommendation_id || null,
+      citizen_profile: sanitizeCitizenProfile(event.citizen_profile || {}),
+      recommendations: (event.recommendations || []).map(sanitizeRecommendation)
+    };
+    const saved = await AnalyticsEvent.create(safeEvent);
+    return {
+      id: saved._id.toString(),
+      timestamp: saved.createdAt?.toISOString?.(),
+      ...safeEvent
+    };
+  }
+
   await ensureAnalyticsFile();
   const events = await readAnalyticsEvents();
   const safeEvent = {
@@ -82,6 +110,11 @@ export async function appendAnalyticsEvent(event) {
 export const writeAnalyticsEvent = appendAnalyticsEvent;
 
 export async function resetAnalyticsEvents() {
+  if (isMongoConnected()) {
+    await AnalyticsEvent.deleteMany({});
+    return;
+  }
+
   await ensureAnalyticsFile();
   await fs.writeFile(analyticsPath, "[]\n");
 }
